@@ -6,7 +6,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 
 [000. hey programmer]()   
 [001. max-value]()  
-[002. is prime]
+[002. is prime](https://github.com/MoigeMatino/structy.net/tree/main/002-is-prime)
 
 ## 1. Array and String
 
