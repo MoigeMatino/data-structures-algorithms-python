@@ -8,7 +8,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [001. max-value]()  
 [002. is prime](https://github.com/MoigeMatino/structy.net/tree/main/002-is-prime)
 
-## 1. Array and String
+## 1. Arrays and Strings
 
 003. uncompress  
 004. compress  
