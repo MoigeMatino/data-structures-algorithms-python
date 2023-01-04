@@ -4,10 +4,10 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 
 ## 0. Introduction
 
-[000. hey programmer]()   
-[001. max-value]()  
+[000. hey programmer](https://github.com/MoigeMatino/structy.net/tree/main/000-hey-programmer)   
+[001. max-value](https://github.com/MoigeMatino/structy.net/tree/main/001-max-value)  
 [002. is prime](https://github.com/MoigeMatino/structy.net/tree/main/002-is-prime)
-
+[003. uncompress](https://github.com/MoigeMatino/structy.net/tree/main/002-uncompress)
 ## 1. Arrays and Strings
 
 003. uncompress  
