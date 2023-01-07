@@ -20,8 +20,14 @@ def compress(s):
 print(compress('ccaaatsss'))
 
 """
+======================================================================================
 Notes:
+======================================================================================
+Strategy: Two pointers technique
+
 Time complexity: O(n^2)
+Space complexity: O(n)
+
 This is a less efficient solution:
 Strings in python are immutable therefore concatenating strings
 involves creating a copy of the string to new memory then make the addition.
