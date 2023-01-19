@@ -12,7 +12,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 
 [003. uncompress](https://github.com/MoigeMatino/structy.net/tree/main/002-uncompress)   
 [004. compress](https://github.com/MoigeMatino/structy.net/tree/main/004-compress)   
-005. anagrams  
+[005. anagrams](https://github.com/MoigeMatino/structy.net/tree/main/005-anagrams)   
 006. most frequent char  
 007. pair sum  
 008. pair product    
