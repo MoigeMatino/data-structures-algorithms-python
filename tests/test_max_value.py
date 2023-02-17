@@ -1,5 +1,5 @@
 from max_value.max_value_v1 import max_value
-
+from max_value.max_value_v2 import max_value as max_value2
 test_case = [
 
     ([4, 7, 2, 8, 10, 9],10),
@@ -15,3 +15,4 @@ test_case = [
 def test_max_value():
     for test in test_case:
         assert max_value(test[0])==test[1]
+        assert max_value2(test[0])==test[1]
