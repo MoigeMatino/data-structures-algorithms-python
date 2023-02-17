@@ -1,22 +1,21 @@
 import pytest
-from structy.
+from anagrams import anagrams_v1 as anagrams
 
 test_case=[
-    ('restful', 'fluster'),
-    ('cats', 'tocs'),
-    ('monkeyswrite', 'newyorktimes'),
-    ('paper', 'reapa')
+        ('paper', 'reapa',False),
+        ('restful', 'fluster',True),
+        ('cats', 'tocs',False),
+        ('monkeyswrite', 'newyorktimes',True),
+        ('elbow', 'below', True),
+        ('tax', 'taxi',False),
+        ('taxi', 'tax', False),
+        ('night', 'thing', True),
+        ('abbc', 'aabc', False),
+        ('po', 'popp', False),
+        ('pp', 'oo',False)
+
 ]
-@pytest.fixture
-def example_anagram_data():
-    return [
-
-        ('paper', 'reapa')
-        ('restful', 'fluster'),
-        ('cats', 'tocs'),
-        ('monkeyswrite', 'newyorktimes'),
-
-    ]
 
 def test_anagrams():
-    assert anagrams(example_anagram_data)
+    for item in test_case:
+        assert anagrams.anagrams(item[0],item[1]) == item[2]
