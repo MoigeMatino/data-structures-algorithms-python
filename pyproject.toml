@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "structy"
+version = "0.1.0"
+description = ""
+authors = ["Agatha Bahati <agathamakori38@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
