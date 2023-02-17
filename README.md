@@ -4,15 +4,15 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 
 ## 0. Introduction
 
-[000. hey programmer](https://github.com/MoigeMatino/structy.net/tree/main/000-hey-programmer)   
-[001. max-value](https://github.com/MoigeMatino/structy.net/tree/main/001-max-value)  
-[002. is prime](https://github.com/MoigeMatino/structy.net/tree/main/002-is-prime)  
+[000. hey programmer](https://github.com/MoigeMatino/structy.net/tree/main/hey_programmer)   
+[001. max-value](https://github.com/MoigeMatino/structy.net/tree/main/max_value)  
+[002. is prime](https://github.com/MoigeMatino/structy.net/tree/main/is_prime)  
 
 ## 1. Arrays and Strings
 
-[003. uncompress](https://github.com/MoigeMatino/structy.net/tree/main/002-uncompress)   
-[004. compress](https://github.com/MoigeMatino/structy.net/tree/main/004-compress)   
-[005. anagrams](https://github.com/MoigeMatino/structy.net/tree/main/005-anagrams)   
+[003. uncompress](https://github.com/MoigeMatino/structy.net/tree/main/uncompress)   
+[004. compress](https://github.com/MoigeMatino/structy.net/tree/main/compress)   
+[005. anagrams](https://github.com/MoigeMatino/structy.net/tree/main/anagrams)   
 006. most frequent char  
 007. pair sum  
 008. pair product    
