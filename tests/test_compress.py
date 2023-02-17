@@ -1,4 +1,3 @@
-import pytest
 from compress.compress_v1 import compress
 
 test_case = [
