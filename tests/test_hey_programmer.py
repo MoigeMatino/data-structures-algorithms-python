@@ -1,4 +1,3 @@
-import pytest
 from hey_programmer.fstring import greet
 
 test_case=[

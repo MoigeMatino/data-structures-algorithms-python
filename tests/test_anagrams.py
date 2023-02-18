@@ -1,4 +1,3 @@
-import pytest
 from anagrams import anagrams_v1 as anagrams
 
 test_case=[
