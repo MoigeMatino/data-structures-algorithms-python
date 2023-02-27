@@ -1,7 +1,7 @@
 def most_frequent_char(s):
     tracker = {}
     for char in s:
-        if char in s:
+        if char in tracker:
             tracker[char] +=1
         tracker[char] = 1
 
