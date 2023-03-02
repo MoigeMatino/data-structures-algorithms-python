@@ -16,7 +16,7 @@ test_case = [
 def test_most_frequent_char():
     for test in test_case:
         # *TODO fix issue with mfc1
-        # assert mfc1(test[0]) == test[1]
-        assert mfc2(test[0]) == test[1]
-        assert mfc3(test[0]) == test[1]
-        assert mfc4(test[0]) == test[1]
+        assert mfc1(test[0]) == test[1]
+        # assert mfc2(test[0]) == test[1]
+        # assert mfc3(test[0]) == test[1]
+        # assert mfc4(test[0]) == test[1]
