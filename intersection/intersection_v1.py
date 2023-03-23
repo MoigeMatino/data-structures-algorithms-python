@@ -6,3 +6,10 @@ def intersection(a,b):
             intersection.append(element)
     return intersection
 
+"""
+Time:O(n+m)
+Space: O(n)
+A set is used because it is more efficient for lookup
+with a O(1)
+
+"""
