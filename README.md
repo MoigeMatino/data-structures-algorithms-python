@@ -17,4 +17,4 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [007. pair sum](https://github.com/MoigeMatino/structy.net/tree/main/pair_sum)    
 [008. pair product](https://github.com/MoigeMatino/structy.net/tree/main/pair_product)      
 [009. intersection](https://github.com/MoigeMatino/structy.net/tree/main/intersection)     
-010. five sort
+[010. five sort](https://github.com/MoigeMatino/structy.net/tree/main/five_sort)  
