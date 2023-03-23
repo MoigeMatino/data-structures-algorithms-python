@@ -7,8 +7,10 @@ def intersection(a,b):
     return intersection
 
 """
+n = length of array a, m = length of array b
 Time:O(n+m)
 Space: O(n)
+
 A set is used because it is more efficient for lookup
 with a O(1)
 
