@@ -1,7 +1,7 @@
 def intersection(a,b):
     intersection=[]
-    for element in a:
-        if element in b:
+    for element in b:
+        if element in a:
             intersection.append(element)
     
     return intersection
