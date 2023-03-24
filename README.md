@@ -15,6 +15,6 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [005. anagrams](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/anagrams)   
 [006. most frequent char](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/most_frequent_char)  
 [007. pair sum](https://github.com/MoigeMatino/structy.net/tree/main/pair_sum)    
-[008. pair product](https://github.com/MoigeMatino/structy.net/tree/main/pair_product)      
+[008. pair product](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/pair_product)       
 [009. intersection](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/intersection)  
 [010. five sort](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/five_sort)  
