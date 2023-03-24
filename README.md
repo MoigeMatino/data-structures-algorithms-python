@@ -5,7 +5,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 ## 0. Introduction
 
 [000. hey programmer](https://github.com/MoigeMatino/structy.net/tree/main/hey_programmer)   
-[001. max-value](https://github.com/MoigeMatino/structy.net/tree/main/max_value)  
+[001. max value](https://github.com/MoigeMatino/structy.net/tree/main/max_value)  
 [002. is prime](https://github.com/MoigeMatino/structy.net/tree/main/is_prime)  
 
 ## 1. Arrays and Strings
