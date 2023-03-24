@@ -10,7 +10,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 
 ## 1. Arrays and Strings
 
-[003. uncompress](https://github.com/MoigeMatino/structy.net/tree/main/uncompress)   
+[003. uncompress](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/uncompress)   
 [004. compress](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/compress)   
 [005. anagrams](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/anagrams)   
 [006. most frequent char](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/most_frequent_char)  
