@@ -6,7 +6,7 @@ class Node:
 def traverse(head):
     nodes=[]
     current = head
-    while current is not None:
+    while current:
         nodes.append(current.val)
         current = current.next
 

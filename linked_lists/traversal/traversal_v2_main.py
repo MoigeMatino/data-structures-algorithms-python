@@ -4,9 +4,9 @@ class Node:
         self.next = next
 
 def node_values(head):
-    nodes=[]
-    traverse(head, nodes)
-    return nodes
+    nodes_list=[]
+    traverse(head, nodes_list)
+    return nodes_list
 
 
 def traverse(head, nodes):
@@ -14,7 +14,5 @@ def traverse(head, nodes):
         return
     
     nodes.append(head.val)
-    traverse(head.next)
-
-    
+    traverse(head.next, nodes)
 
