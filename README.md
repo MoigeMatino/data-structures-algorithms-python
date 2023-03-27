@@ -18,3 +18,10 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [008. pair product](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/pair_product)       
 [009. intersection](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/intersection)  
 [010. five sort](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/five_sort)  
+
+## 2. Linked Lists  
+
+[011. Traversal](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/traversal)  
+
+
+
