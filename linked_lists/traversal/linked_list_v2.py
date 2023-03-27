@@ -3,14 +3,18 @@ class Node:
         self.val = val
         self.next = next
 
-nodes=[]
-def traverse(head):
-    current = head
-    if head == None:
-        return []
-    
-    nodes.append(current.val)
-    traverse(current.next)
-
+def node_values(head):
+    nodes=[]
+    traverse(head, nodes)
     return nodes
+
+
+def traverse(head, nodes):
+    if head == None:
+        return
+    
+    nodes.append(head.val)
+    traverse(head.next)
+
+    
 
