@@ -22,6 +22,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 ## 2. Linked Lists  
 
 [011. traversal](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/traversal)  
+[012. sum list](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/sum_list)  
 
 
 
