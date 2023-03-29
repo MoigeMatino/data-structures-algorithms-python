@@ -6,3 +6,8 @@ def sum_list(head):
 
     return sum
 
+"""
+n: number of nodes in linked list
+Time: O(n)
+Space: O(1)
+"""
