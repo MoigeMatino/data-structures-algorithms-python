@@ -5,3 +5,11 @@ def get_node_value(head, index):
         return head.val
     
     return get_node_value(head.next, index-1)
+
+"""
+Recursive approach
+====================
+n: number of nodes
+Time: O(n)
+Space: O(n)
+"""
