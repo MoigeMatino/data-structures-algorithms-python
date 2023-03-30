@@ -8,3 +8,11 @@ def get_node_value(head, index):
         counter += 1
         
     return None
+
+"""
+Iterative approach
+======================
+n: number of nodes
+Time: O(n)
+Space: O(1)
+"""
