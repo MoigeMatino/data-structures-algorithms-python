@@ -21,3 +21,12 @@ def zipper_lists(head_1, head_2):
         tracker.next = current_2
 
     return head_1
+
+"""
+Iterative approach:
+n = length of list 1
+m = length of list 2
+Time: O(min(n, m))
+Space: O(1)
+
+"""
