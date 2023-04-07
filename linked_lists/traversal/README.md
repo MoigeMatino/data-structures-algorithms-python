@@ -44,4 +44,6 @@ linked_list_values(q) # -> [ 'q' ]
 
 ## test_03
 
-`linked_list_values(None) # -> [ ]`
+```
+linked_list_values(None) # -> [ ]
+```
