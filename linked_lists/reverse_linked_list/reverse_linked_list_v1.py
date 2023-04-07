@@ -7,3 +7,10 @@ def reverse_list(head):
         previous = current
         current = next
     return previous
+
+"""
+Iterative approach
+n - number of nodes
+Time: O(n)
+Space: O(1)
+"""
