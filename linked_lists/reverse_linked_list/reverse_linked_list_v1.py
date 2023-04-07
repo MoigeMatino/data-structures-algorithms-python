@@ -6,7 +6,7 @@ def reverse_list(head):
         current.next = previous
         previous = current
         current = next
-    return previous
+    return previous.val
 
 """
 Iterative approach
