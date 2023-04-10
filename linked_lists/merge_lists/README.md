@@ -1,6 +1,6 @@
 # merge lists
 
-Write a function, merge_lists, that takes in the head of two sorted linked lists as arguments. The function should merge the two lists together into single sorted linked list. The function should return the head of the merged linked list.
+Write a function, `merge_lists`, that takes in the head of two sorted linked lists as arguments. The function should merge the two lists together into single sorted linked list. The function should return the head of the merged linked list.
 
 Do this in-place, by mutating the original Nodes.
 
