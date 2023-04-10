@@ -27,7 +27,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [014. get node value](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/get_node_value)  
 [015. reverse list](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/reverse_linked_list)  
 [016. zipper lists](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/zipper_lists)    
-017. merge lists  
+[017. merge lists](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/merge_lists)  
 
 
 
