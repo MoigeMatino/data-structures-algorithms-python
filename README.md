@@ -29,7 +29,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [016. zipper lists](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/zipper_lists)    
 [017. merge lists](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/merge_lists)  
 [018. is univalue list](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/is_univalue_list)  
-[019. longest streak]()  
+[019. longest streak](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/longest_streak)  
 
 
 
