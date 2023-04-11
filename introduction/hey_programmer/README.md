@@ -1,6 +1,6 @@
 ## hey programmer
 
-Write a function greet that takes in a string argument, s, and returns the string "hey s". No tricks here.
+Write a function `greet` that takes in a string argument, s, and returns the string "hey s". No tricks here.
 
 ### test_00:
 
