@@ -4,7 +4,6 @@ def compress(s):
     i=0
     j=0
     while j<len(s):
-        # s='ccaaatsss'
         if s[i] == s[j]:
             j+=1
         else:
