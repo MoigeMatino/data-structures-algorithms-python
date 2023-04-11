@@ -1,6 +1,6 @@
 ## max-value
 
-Write a function, max_value, that takes in list of numbers as an argument. The function should return the largest number in the list.
+Write a function, `max_value`, that takes in list of numbers as an argument. The function should return the largest number in the list.
 
 Solve this without using any built-in list methods.
 
