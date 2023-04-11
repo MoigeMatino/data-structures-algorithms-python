@@ -16,9 +16,7 @@ def five_sort(nums):
 
 
 """
-
 n = number of elements in array
 Time: O(n)
 Space: O(1)
-
 """
