@@ -22,3 +22,11 @@ def merge_lists(head_1, head_2):
         tracker.next = head_2
 
     return dummy_head.next
+
+"""
+Iterative approach
+n - number of nodes
+Time: O(n)
+Space: O(1)
+
+"""
