@@ -19,3 +19,12 @@ def remove_node(head, target_val):
         current = current.next
     
     return head
+
+
+"""
+iterative approach
+n - number of nodes
+Time: O(n)
+Space: O(1)
+
+"""
