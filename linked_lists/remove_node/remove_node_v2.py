@@ -7,3 +7,11 @@ def remove_node(head, target_val):
 
     head.next = remove_node(head.next, target_val)
     return head
+
+"""
+Recursive approach
+n -  number of nodes
+Time: O(n)
+Space: O(n)
+
+"""
