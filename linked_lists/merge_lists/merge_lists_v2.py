@@ -18,3 +18,11 @@ def merge_lists(head_1, head_2):
         next_2 = head_2.next
         head_2 = merge_lists(head_1, next_2)
         return head_2
+
+"""
+Recursive approach
+n - number of nodes
+Time: O(n)
+Space: O(n)
+
+"""
