@@ -27,3 +27,12 @@ def add_lists(head_1, head_2):
             current_2 = current_2.next
         
     return dummy_head.next
+
+"""
+
+n = length of list 1
+m = length of list 2
+Time: O(max(n, m))
+Space: O(max(n, m))
+
+"""
