@@ -31,7 +31,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [018. is univalue list](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/is_univalue_list)  
 [019. longest streak](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/longest_streak)  
 [020. remove node](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/remove_node)  
-021. insert node  
+[021. insert node](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/insert_node)    
 022. create linked list  
 023. add lists  
 
