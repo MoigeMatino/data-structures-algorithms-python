@@ -18,3 +18,9 @@ def insert_node(head, value, index, count=0):
     insert_node(head.next, value, index, count+1)
     return head
     
+"""
+Recursive approach
+n - number of nodes
+Time: O(n)
+Space: O(n)
+"""

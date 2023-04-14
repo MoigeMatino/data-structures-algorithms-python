@@ -20,3 +20,10 @@ def insert_node(head, value, index):
         current = current.next
     
     return head
+
+"""
+Recursive approach
+n - number of nodes
+Time: O(n)
+Space: O(1)
+"""
