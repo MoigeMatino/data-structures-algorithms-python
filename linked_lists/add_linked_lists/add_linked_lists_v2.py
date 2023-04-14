@@ -20,3 +20,12 @@ def add_lists(head_1, head_2, carry = 0):
     
     result.next = add_lists(next_1, next_2, next_carry)
     return result
+
+"""
+
+n = length of list 1
+m = length of list 2
+Time: O(max(n, m))
+Space: O(max(n, m))
+
+"""
