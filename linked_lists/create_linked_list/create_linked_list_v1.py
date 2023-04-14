@@ -11,3 +11,11 @@ def create_linked_list(values):
         tail = tail.next
     
     return dummy_head.next
+
+"""
+
+n = length of values
+Time: O(n)
+Space: O(n)
+
+"""

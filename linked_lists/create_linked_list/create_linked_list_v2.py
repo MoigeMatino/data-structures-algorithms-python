@@ -10,3 +10,11 @@ def create_linked_list(values, index=0):
     head = Node(values[index])
     head.next = create_linked_list(values, index+1)
     return head
+
+"""
+
+n = length of values
+Time: O(n)
+Space: O(n)
+
+"""
