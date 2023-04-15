@@ -35,6 +35,17 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [022. create linked list](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/create_linked_list)    
 [023. add lists](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/add_linked_lists)    
 
+## 3. Binary Tree
+
+024. depth first values  
+025. breadth first values  
+026. tree sum  
+027. tree includes  
+028. tree min value  
+029. max root to leaf path sum  
+030. tree path finder  
+031. tree value count  
+
 
 
 
