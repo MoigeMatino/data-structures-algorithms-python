@@ -4,6 +4,7 @@ class Node:
         self.left = None
         self.right = None
 
+
 def depth_first_values(root):
     stack = [root]
     values = []
