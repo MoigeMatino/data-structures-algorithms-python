@@ -38,7 +38,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 ## 3. Binary Tree
 
 [024. depth first values](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/depth_first_values)  
-025. breadth first values  
+[025. breadth first values](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/breadth_first_values)  
 026. tree sum  
 027. tree includes  
 028. tree min value  
