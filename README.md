@@ -39,7 +39,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 
 [024. depth first values](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/depth_first_values)  
 [025. breadth first values](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/breadth_first_values)  
-026. tree sum  
+[026. tree sum](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/tree_sum)  
 [027. tree includes](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/tree_includes)  
 028. tree min value  
 029. max root to leaf path sum  
