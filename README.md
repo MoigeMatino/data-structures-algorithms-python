@@ -42,7 +42,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [026. tree sum](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/tree_sum)  
 [027. tree includes](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/tree_includes)  
 [028. tree min value](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/tree_min_value)  
-029. max root to leaf path sum  
+[029. max root to leaf path sum](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/max_path_root_sum)  
 [030. tree path finder](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/tree_path_finder)  
 [031. tree value count](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/tree_value_count)  
 
