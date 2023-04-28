@@ -44,7 +44,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [028. tree min value](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/tree_min_value)  
 029. max root to leaf path sum  
 030. tree path finder  
-031. tree value count  
+[031. tree value count](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/tree_value_count)  
 
 
 
