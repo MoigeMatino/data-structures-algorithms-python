@@ -3,7 +3,7 @@ def how_high(node):
         return -1
     
     stack = [node]
-    level=-1 #starting at -1 so that we can start counting the legitimate height from the children of the root
+    level =-1 #starting at -1 so that we can start counting the legitimate height from the children of the root
     while stack:
         
         for x in stack:
