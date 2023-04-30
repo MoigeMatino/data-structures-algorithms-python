@@ -45,6 +45,12 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [029. max root to leaf path sum](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/max_path_root_sum)  
 [030. tree path finder](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/tree_path_finder)  
 [031. tree value count](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/tree_value_count)  
+032. how high  
+033. bottom right value  
+034. all tree paths  
+035. tree level  
+036. level averages  
+037. leaf list  
 
 
 
