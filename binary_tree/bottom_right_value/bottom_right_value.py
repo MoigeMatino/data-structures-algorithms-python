@@ -15,6 +15,7 @@ def bottom_right_value(root):
     return current.val
 
 """
+Tip: the left most node with no children will represent the right most node, remember that we're working with a queue.
 BFS iterative approach
 
 n = number of nodes
