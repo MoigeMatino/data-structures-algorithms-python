@@ -1,6 +1,6 @@
 # level averages
 
-Write a function, level_averages, that takes in the root of a binary tree that contains number values. The function should return a list containing the average value of each level.
+Write a function, `level_averages`, that takes in the root of a binary tree that contains number values. The function should return a list containing the average value of each level.
 
 ## test_00:
 
