@@ -48,7 +48,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [032. how high](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/how_high)  
 [033. bottom right value](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/bottom_right_value)   
 [034. all tree paths](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/all_tree_paths)  
-[035. tree level]  
+[035. tree level](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/tree_levels)  
 [036. level averages]  
 [037. leaf list]  
 
