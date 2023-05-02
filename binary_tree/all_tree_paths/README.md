@@ -1,6 +1,6 @@
 # all tree paths
 
-Write a function, all_tree_paths, that takes in the root of a binary tree. The function should return a 2-Dimensional list where each subarray represents a root-to-leaf path in the tree.
+Write a function, `all_tree_paths`, that takes in the root of a binary tree. The function should return a 2-Dimensional list where each subarray represents a root-to-leaf path in the tree.
 
 The order within an individual path must start at the root and end at the leaf, but the relative order among paths in the outer list does not matter.
 
