@@ -11,11 +11,19 @@ def all_tree_paths(root):
     for sub_path in left_sub_paths:
         new_path = [ *sub_path][::-1] + [root.val ]
         paths.append(new_path[::-1])
+        """
+        for sub_path in left_sub_paths:
+            paths.append([ root.val, *sub_path ])
+        """
         
     right_sub_paths = all_tree_paths(root.right)
     for sub_path in right_sub_paths:
         new_path = [ *sub_path][::-1] + [root.val ]
         paths.append(new_path[::-1])
+        """
+        for sub_path in right_sub_paths:
+            paths.append([ root.val, *sub_path ])
+        """
     
     return paths
 
