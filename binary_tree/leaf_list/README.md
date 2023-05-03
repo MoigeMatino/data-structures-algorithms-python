@@ -1,6 +1,6 @@
 # leaf list
 
-Write a function, leaf_list, that takes in the root of a binary tree and returns a list containing the values of all leaf nodes in left-to-right order.
+Write a function, `leaf_list`, that takes in the root of a binary tree and returns a list containing the values of all leaf nodes in left-to-right order.
 
 ## test_00:
 
