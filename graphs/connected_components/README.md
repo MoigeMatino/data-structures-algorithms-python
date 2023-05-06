@@ -1,6 +1,6 @@
 # connected components count
 
-Write a function, connected_components_count, that takes in the adjacency list of an undirected graph. The function should return the number of connected components within the graph.
+Write a function, `connected_components_count`, that takes in the adjacency list of an undirected graph. The function should return the number of connected components within the graph.
 
 ## test_00:
 
