@@ -59,7 +59,10 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [040. connected components count](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/connected_components)  
 041. largest component  
 042. slow and steady   
-043. shortest path  
+043. shortest path
+044. island count  
+045. minimum island  
+046. closest carrot
 
 
 
