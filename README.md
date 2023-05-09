@@ -57,7 +57,7 @@ Solving [structy.net](https://structy.net/) data structures & algorithms program
 [038. has path](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/has_path)  
 [039. undirected path](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/undirected_path)  
 [040. connected components count](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/connected_components)  
-041. largest component  
+[041. largest component](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/largest_component)  
 042. slow and steady   
 043. shortest path  
 044. island count  
