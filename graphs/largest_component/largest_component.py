@@ -20,4 +20,12 @@ def explore_size(graph, node, visited):
         size += explore_size(graph, neighbor, visited)
         
     return size
+"""
+Depth first
 
+n = number of nodes
+e = number edges
+Time: O(e)
+Space: O(n)
+
+"""
