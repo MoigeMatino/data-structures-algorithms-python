@@ -1,6 +1,6 @@
 # largest component
 
-Write a function, largest_component, that takes in the adjacency list of an undirected graph. The function should return the size of the largest connected component in the graph.
+Write a function, `largest_component`, that takes in the adjacency list of an undirected graph. The function should return the size of the largest connected component in the graph.
 
 ## test_00:
 
