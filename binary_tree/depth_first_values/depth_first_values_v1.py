@@ -11,7 +11,7 @@ def depth_first_values(root):
     if root is None:
         return []
     while stack:
-        current = stack.pop
+        current = stack.pop()
         values.append(current)
 
         if current.right:
