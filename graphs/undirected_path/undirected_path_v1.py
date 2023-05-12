@@ -47,5 +47,6 @@ Space: O(e)
 
 NB: In this problem, it is very important to account for the presence of cycles with is a relevant/possible occurrence
 with undirected graphs. This keeps us from being trapped in an infinite loop.
+Additionally we use a set because it gives us lookup and insertion take constant time - O(1)
 
 """
