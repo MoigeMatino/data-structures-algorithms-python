@@ -22,7 +22,7 @@ def insert_node(head, value, index):
     return head
 
 """
-Recursive approach
+Iterative approach
 n - number of nodes
 Time: O(n)
 Space: O(1)
