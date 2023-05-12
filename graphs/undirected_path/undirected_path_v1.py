@@ -47,6 +47,9 @@ Space: O(e)
 
 NB: In this problem, it is very important to account for the presence of cycles with is a relevant/possible occurrence
 with undirected graphs. This keeps us from being trapped in an infinite loop.
-Additionally we use a set because it gives us lookup and insertion take constant time - O(1)
+
+Additionally using a set instead of a list allows for a constant time complexity (O(1)) for the visited check with the 
+current in visited operation. On the other hand, if a list were used, the time complexity for the membership check would
+be linear (O(n)) as it would require iterating through the list to find the matching element.
 
 """
