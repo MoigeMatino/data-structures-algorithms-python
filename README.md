@@ -59,7 +59,7 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 [040. connected components count](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/connected_components)  
 [041. largest component](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/largest_component)  
 [042. shortest path](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/shortest_path)    
-043. island count  
+[043. island count](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/island_count)  
 044. minimum island  
 045. closest carrot
 
