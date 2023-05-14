@@ -61,7 +61,13 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 [042. shortest path](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/shortest_path)    
 [043. island count](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/island_count)  
 [044. minimum island](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/minimum_island)  
-045. closest carrot
+045. closest carrot  
+046. longest path  
+047. semesters required  
+048. best bridge  
+049. has cycle  
+050. prereqs possible  
+051. knight attack  
 
 
 
