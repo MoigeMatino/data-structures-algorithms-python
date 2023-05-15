@@ -45,8 +45,8 @@ e = number edges
 Time: O(e)
 Space: O(e)
 
-NB: In this problem, it is very important to account for the presence of cycles with is a relevant/possible occurrence
-with undirected graphs. This keeps us from being trapped in an infinite loop.
+NB: In this problem, it is very important to account for the possibility of cycles as a relevant occurrence
+in undirected graphs. This keeps us from being trapped in an infinite loop.
 
 Additionally using a set instead of a list allows for a constant time complexity (O(1)) for the `visited` check through the 
 `current in visited` operation. On the other hand, if a list were used, the time complexity for the membership check would
