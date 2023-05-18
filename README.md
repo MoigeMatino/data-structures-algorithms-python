@@ -63,7 +63,7 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 [044. minimum island](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/minimum_island)  
 [045. closest carrot](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/closest_carrot)  
 [046. longest path](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/longest_path)  
-047. semesters required  
+[047. semesters required](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/semesters_required)  
 048. best bridge  
 049. has cycle  
 050. prereqs possible  
