@@ -1,6 +1,6 @@
 def tree_includes(root, target):
     if root is None:
-        return 0
+        return False
     
     if root.val == target:
         return True
