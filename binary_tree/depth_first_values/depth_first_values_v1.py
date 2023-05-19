@@ -18,3 +18,4 @@ def depth_first_values(root):
             values.append(current.right)
         if current.left:
             values.append(current.left)
+    return values
