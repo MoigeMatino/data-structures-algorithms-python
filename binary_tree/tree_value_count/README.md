@@ -1,6 +1,6 @@
 # tree value count
 
-Write a function, tree_value_count, that takes in the root of a binary tree and a target value. The function should return the number of times that the target occurs in the tree.
+Write a function, `tree_value_count`, that takes in the root of a binary tree and a target value. The function should return the number of times that the target occurs in the tree.
 
 ## test_00:
 
