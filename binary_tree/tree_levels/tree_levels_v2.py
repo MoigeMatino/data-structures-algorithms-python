@@ -20,7 +20,7 @@ def tree_levels(root):
         if current.right is not None:
             queue.append((current.right, level_num + 1))
     
-    return levels
+    return levels   
 
 """
 BFS iterative - Approach 2
