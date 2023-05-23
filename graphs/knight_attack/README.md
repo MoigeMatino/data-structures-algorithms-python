@@ -2,7 +2,7 @@
 
 A knight and a pawn are on a chess board. Can you figure out the minimum number of moves required for the knight to travel to the same position of the pawn? On a single move, the knight can move in an "L" shape; two spaces in any direction, then one space in a perpendicular direction. This means that on a single move, a knight has eight possible positions it can move to.
 
-Write a function, knight_attack, that takes in 5 arguments:
+Write a function, `knight_attack`, that takes in 5 arguments:
 
 n, kr, kc, pr, pc
 
