@@ -2,7 +2,7 @@
 name = "structy"
 version = "0.1.0"
 description = ""
-authors = ["Agatha Bahati <agathamakori38@gmail.com>"]
+authors = ["Agatha Bahati"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
