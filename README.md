@@ -69,6 +69,14 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 [050. prereqs possible](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/prereqs_available)  
 [051. knight attack](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/knight_attack)  
 
+## 5. Dynamic Programming  
+
+052. fib  
+053. tribonacci
+054. sum possible  
+055. min change  
+056. count path  
+
 
 
 
