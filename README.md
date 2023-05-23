@@ -66,7 +66,7 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 [047. semesters required](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/semesters_required)  
 [048. best bridge](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/best_bridge)  
 [049. has cycle](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/has_cycle)  
-050. prereqs possible  
+[050. prereqs possible](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/prereqs_available)  
 051. knight attack  
 
 
