@@ -29,7 +29,7 @@ Space complexity: O(n)
 
 This is a less efficient solution:
 Strings in python are immutable therefore concatenating strings
-involves creating a copy of the string to new memory then make the addition.
+involves creating a copy of the string to new memory then making the addition.
 This operation has linear time complexity. 
 This time complexity of this algorithm is quadratic because we're running n iterations 
 with a nested linear time from the concatenation operations on the strings.
