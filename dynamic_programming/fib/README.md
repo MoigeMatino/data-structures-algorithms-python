@@ -1,6 +1,6 @@
 # fib
 
-Write a function fib that takes in a number argument, n, and returns the n-th number of the Fibonacci sequence.
+Write a function `fib` that takes in a number argument, **n**, and returns the n-th number of the Fibonacci sequence.
 
 The 0-th number of the sequence is 0.
 
