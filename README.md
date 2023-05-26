@@ -71,7 +71,7 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 
 ## 5. Dynamic Programming  
 
-052. fib  
+[052. fib](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/fib)  
 053. tribonacci
 054. sum possible  
 055. min change  
