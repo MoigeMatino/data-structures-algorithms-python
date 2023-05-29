@@ -1,6 +1,6 @@
 # Data Structures and Algorithms - structy.net 
 
-The programming problems on  [structy.net](https://structy.net/) for data structures and algorithms in Python are meant to be tackled sequentially, with tasks below arranged in chronological order.
+The programming problems on  [structy.net](https://structy.net/) for data structures and algorithms in Python are meant to be tackled sequentially, with tasks below arranged in chronological order. Tests are also included.
 
 ## 0. Introduction
 
