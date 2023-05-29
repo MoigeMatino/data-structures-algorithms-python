@@ -1,6 +1,6 @@
 # tribonacci
 
-Write a function tribonacci that takes in a number argument, n, and returns the n-th number of the Tribonacci sequence.
+Write a function `tribonacci` that takes in a number argument, n, and returns the n-th number of the Tribonacci sequence.
 
 The 0-th and 1-st numbers of the sequence are both 0.
 
