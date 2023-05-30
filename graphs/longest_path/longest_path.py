@@ -2,7 +2,7 @@ def longest_path(graph):
     distance = {}
     
     for node in graph:
-        if graph[node] == []:
+        if graph[node] == []:# this indicates a terminal node due to absence of neighbors
             distance[node] = 0
         
     for node in graph:
