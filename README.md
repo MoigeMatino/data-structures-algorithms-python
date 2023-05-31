@@ -75,7 +75,7 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 [053. tribonacci](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/tribonacci)  
 [054. sum possible](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/sum_possible)  
 [055. min change](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/min_change)  
-056. count path  
+[056. count path](https://github.com/MoigeMatino/data-structures-algorithms-structy/blob/main/dynamic_programming/count_paths)  
 
 
 
