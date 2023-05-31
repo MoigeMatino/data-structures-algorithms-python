@@ -34,7 +34,7 @@ def explore(grid, r, c, visited):
 
 """
 A grid is a special representation of a graph. The mode of traversal is different.
-The nodes in a grid are represented by its position([row][col]). Hence the gird[r][c]
+The nodes in a grid are represented by its position([row][col]). Hence the grid[r][c]
 to get the value of the node at that position.
 The grid is traversed in a spiral fashion.
 
