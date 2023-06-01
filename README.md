@@ -77,10 +77,10 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 [055. min change](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/min_change)  
 [056. count path](https://github.com/MoigeMatino/data-structures-algorithms-structy/blob/main/dynamic_programming/count_paths)  
 057. max path sum  
-58. non adjacent sum  
-59. summing squares  
-60. counting change  
-61. array stepper
+058. non adjacent sum  
+059. summing squares  
+060. counting change  
+061. array stepper
 
 
 
