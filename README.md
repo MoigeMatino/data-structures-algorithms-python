@@ -79,6 +79,8 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 057. max path sum  
 58. non adjacent sum  
 59. summing squares  
+60. counting change  
+61. array stepper
 
 
 
