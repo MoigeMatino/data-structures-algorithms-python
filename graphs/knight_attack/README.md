@@ -12,7 +12,7 @@ n, kr, kc, pr, pc
     pr = the row of the pawn
     pc = the column of the pawn
 
-The function should return a number representing the minimum number of moves required for the knight to land ontop of the pawn. The knight cannot move out-of-bounds of the board. You can assume that rows and columns are 0-indexed. This means that if n = 8, there are 8 rows and 8 columns numbered 0 to 7. If it is not possible for the knight to attack the pawn, then return None.
+The function should return a number representing the minimum number of moves required for the knight to land on top of the pawn. The knight cannot move out-of-bounds of the board. You can assume that rows and columns are 0-indexed. This means that if n = 8, there are 8 rows and 8 columns numbered 0 to 7. If it is not possible for the knight to attack the pawn, then return None.
 
 `knight_attack(8, 1, 1, 2, 2) # -> 2`
 
