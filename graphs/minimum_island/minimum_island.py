@@ -36,5 +36,7 @@ r = number of rows
 c = number of columns
 Time: O(rc)
 Space: O(rc)
-
+NB: it's worth noting that on line 8, we check for size>0 to cater for the instances where 'explore grid'
+returns 0 (if pos represents a W or pos is in visited or pos not in bounds). In this scenario, zero will always be the minimum
+if not handled hence keeping us from exploring the smallest isalnd size(greater than 0 in size)
 """
