@@ -17,7 +17,7 @@ def knight_attack(n, kr, kc, pr, pc):
     return None
 
 def get_knight_moves(n, r, c):
-    positions = [
+    position_deltas = [
         ( r + 2, c + 1 ),
         ( r - 2, c + 1 ),
         ( r + 2, c - 1 ),
@@ -28,7 +28,7 @@ def get_knight_moves(n, r, c):
         ( r - 1, c - 2 ),
     ]
     inbounds_positions = [];
-    for pos in positions:
+    for pos in position_deltas:
         new_row, new_col = pos
         if 0 <= new_row < n and 0 <= new_col < n:
             inbounds_positions.append(pos)
