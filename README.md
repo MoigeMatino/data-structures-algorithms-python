@@ -85,6 +85,7 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 063. overlap subsequence   
 064. can concat  
 065. quickest concat  
+066. knightly number   
 
 
 
