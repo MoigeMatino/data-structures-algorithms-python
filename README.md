@@ -80,7 +80,8 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 058. non adjacent sum  
 059. summing squares  
 060. counting change  
-061. array stepper
+061. array stepper  
+062. max plain subsequence  
 
 
 
