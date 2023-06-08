@@ -19,3 +19,12 @@ def _max_path_sum(grid, r, c, memo):
     memo[pos] = grid[r][c] + max(down, right)
     
     return memo[pos]
+
+"""
+
+r = # rows
+c = # columns
+Time: O(r*c)
+Space: O(r*c)
+
+"""
