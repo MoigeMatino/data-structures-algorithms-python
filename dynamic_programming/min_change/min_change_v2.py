@@ -21,7 +21,7 @@ def _min_change(amount, coins, memo):
         min_coins = min(min_coins, num_coins)
         
     memo[amount] = min_coins
-    return min_coins
+    return memo[amount]
 
 """
 memoization
