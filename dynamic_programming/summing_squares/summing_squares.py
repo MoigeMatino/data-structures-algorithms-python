@@ -18,3 +18,11 @@ def _summing_squares(n, memo):
     
     memo[n] = min_squares
     return min_squares
+
+"""
+
+n = length of nums
+Time: O(n * sqrt(n))
+Space: O(n)
+
+"""
