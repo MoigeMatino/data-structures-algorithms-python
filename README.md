@@ -79,7 +79,7 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 [057. max path sum](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/max_path_sum)  
 [058. non adjacent sum](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/adjacent_sum)  
 [059. summing squares](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/summing_squares)    
-060. counting change  
+[060. counting change](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/counting_change)    
 061. array stepper  
 062. max plain subsequence  
 063. overlap subsequence   
