@@ -24,3 +24,12 @@ def _counting_change(amount, coins, i, memo):
     memo[key] = total_ways
 
     return total_ways
+
+"""
+a - amount
+c - # of coins
+
+Time: O(a*c)
+Space: O(a*c)
+
+"""
