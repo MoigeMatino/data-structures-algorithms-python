@@ -15,7 +15,7 @@ def depth_first_values(root):
         values.append(current)
 
         if current.right:
-            values.append(current.right)
+            stack.append(current.right)
         if current.left:
-            values.append(current.left)
+            stack.append(current.left)
     return values
