@@ -15,7 +15,7 @@ def all_tree_paths(root):
         for sub_path in left_sub_paths:
             paths.append([ root.val, *sub_path ])
             
-        the operation above ie adding a umber of values to the end of
+        the operation above ie adding a number of values to the end of
         of the areay takes O(n) time resulting in an overral O(n^2)
         
         """
