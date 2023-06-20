@@ -8,3 +8,9 @@ def tree_value_count(root, target):
     right_count = tree_value_count(root.right, target)
 
     return match + left_count + right_count
+
+"""
+n = number of nodes
+Time: O(n)
+Space: O(n)
+"""
