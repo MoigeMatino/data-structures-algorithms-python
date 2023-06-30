@@ -81,7 +81,7 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 [059. summing squares](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/summing_squares)    
 [060. counting change](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/counting_change)    
 [061. array stepper](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/array_stepper)    
-062. max plain subsequence  
+[062. max plain subsequence](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/max_palin_subsequence)    
 063. overlap subsequence   
 064. can concat  
 065. quickest concat  
