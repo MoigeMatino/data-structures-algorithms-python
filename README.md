@@ -85,7 +85,7 @@ The programming problems on  [structy.net](https://structy.net/) for data struct
 [063. overlap subsequence](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/overlap_subsequence)     
 [064. can concat](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/can_concat)    
 [065. quickest concat](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/quickest_concat)    
-066. knightly number   
+[066. knightly number](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/knightly_number)     
 
 
 
