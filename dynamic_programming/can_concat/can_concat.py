@@ -17,3 +17,9 @@ def _can_concat(s, words, memo):
         
     memo[s] = False
     return False
+"""
+    s = length of string
+    w = # of words
+    Time: ~O(sw)
+    Space: O(s)
+"""
