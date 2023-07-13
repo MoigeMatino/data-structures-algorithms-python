@@ -52,7 +52,7 @@ def find_island(grid, r, c, visited):
     if not inbounds(grid, r, c) or grid[r][c] == 'W':
         return visited
     
-    pos = (r,c)cd
+    pos = (r,c)
 
     if pos in visited:
         return visited
