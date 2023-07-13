@@ -11,8 +11,8 @@
 from collections import deque
 
 def best_bridge(grid):
-    for r in len(grid):
-        for c in len(grid[0]):
+    for r in range(len(grid)):
+        for c in range(len(grid[0])):
             island = find_island(grid, r, c, set())
             if len(island) > 0:
                 first_island = island
@@ -52,7 +52,7 @@ def find_island(grid, r, c, visited):
     if not inbounds(grid, r, c) or grid[r][c] == 'W':
         return visited
     
-    pos = (r,c)
+    pos = (r,c)cd
 
     if pos in visited:
         return visited
