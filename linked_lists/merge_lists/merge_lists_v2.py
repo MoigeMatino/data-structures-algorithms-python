@@ -20,9 +20,9 @@ def merge_lists(head_1, head_2):
         return head_2
 
 """
-Recursive approach
-n - number of nodes
-Time: O(n)
-Space: O(n)
+n = length of list 1
+m = length of list 2
+Time: O(min(n, m))
+Space: O(min(n,m))
 
 """
