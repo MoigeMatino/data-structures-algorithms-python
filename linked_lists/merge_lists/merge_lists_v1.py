@@ -25,8 +25,9 @@ def merge_lists(head_1, head_2):
 
 """
 Iterative approach
-n - number of nodes
-Time: O(n)
+n = length of list 1
+m = length of list 2
+Time: O(min(n, m))
 Space: O(1)
 
 """
