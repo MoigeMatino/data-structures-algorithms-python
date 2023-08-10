@@ -16,7 +16,7 @@ def path_finder(root, target):
 
 """
 Depth first approach
-Less efficient solution due to the arrray operations in line 10 & 13
+Less efficient solution due to the array operations in line 10 & 13
 
 n = number of nodes
 Time: O(n^2)
