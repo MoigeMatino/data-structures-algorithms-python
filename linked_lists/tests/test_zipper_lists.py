@@ -68,3 +68,20 @@ def test_zipper_lists_w_one():
     assert zipper_list_head_v2.val == test_case[2]
     assert zipper_list_head_v2.next.val == 1
     
+def test_zipper_lists_one_w():
+    one = Node(1)
+    two = Node(2)
+    three = Node(3)
+    one.next = two
+    two.next = three
+
+    w = Node("w")
+
+    zipper_list_head_v1 = zipper_lists_v1(one, w) 
+    assert zipper_list_head_v1.val == test_case[3]
+    assert zipper_list_head_v1.next.val == 'w'
+    assert zipper_list_head_v1.next.next.val == 2
+
+    zipper_list_head_v2 = zipper_lists_v2(one, w) 
+    assert zipper_list_head_v2.val == test_case[3]
+    assert zipper_list_head_v2.next.val == 'w'
