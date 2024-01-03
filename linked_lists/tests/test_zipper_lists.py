@@ -49,5 +49,22 @@ def test_zipper_lists_s_one():
     zipper_list_head_v2 = zipper_lists_v2(s, one) 
     assert zipper_list_head_v2.val == test_case[1]
     assert zipper_list_head_v2.next.val == 1
-    
 
+def test_zipper_lists_w_one():
+    w = Node("w")
+
+    one = Node(1)
+    two = Node(2)
+    three = Node(3)
+    one.next = two
+    two.next = three
+
+    zipper_list_head_v1 = zipper_lists_v1(w, one) 
+    assert zipper_list_head_v1.val == test_case[2]
+    assert zipper_list_head_v1.next.val == 1
+    assert zipper_list_head_v1.next.next.val == 2
+
+    zipper_list_head_v2 = zipper_lists_v2(w, one) 
+    assert zipper_list_head_v2.val == test_case[2]
+    assert zipper_list_head_v2.next.val == 1
+    
