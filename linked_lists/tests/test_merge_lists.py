@@ -59,4 +59,13 @@ def test_merge_lists_5_1():
     assert merge_lists_head_v1.val == test_case[1]
     assert merge_lists_head_v1.next.val == 5
 
-    
+def test_merge_lists_30_15():
+    h = Node(30)
+
+    p = Node(15)
+    q = Node(67)
+    p.next = q
+
+    merge_lists_head_v1 = merge_lists_v1(h, p)
+    assert merge_lists_head_v1.val == test_case[2]
+    assert merge_lists_head_v1.next.val == 30
