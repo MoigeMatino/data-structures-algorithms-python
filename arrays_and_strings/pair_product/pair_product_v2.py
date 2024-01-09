@@ -31,4 +31,6 @@ The space complexity is O(n) because we are using a dictionary to store the indi
 of the numbers in the input list 'nums' and this will require at least n entries
 in the worst case scenario when all the numbers in the list are unique.
 
+Brain teaser: Why is sorting important in this approach?
+
 """
