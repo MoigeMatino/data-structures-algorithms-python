@@ -1,2 +1,2 @@
 def intersection(a,b):
-    return a.intersection(b)
+    return set(a).intersection(b)
