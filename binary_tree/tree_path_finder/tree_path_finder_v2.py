@@ -25,7 +25,8 @@ def _path_finder(root, target):
 """
 Depth first approach
 More efficient solution by using append which runs in costant time
-
+We use the depth first recursive approach because recursion inherently 
+utilises thhe call stack hence allowing for accurate retrieval of path values.
 
 n = number of nodes
 Time: O(n)
