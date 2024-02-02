@@ -20,4 +20,8 @@ n - number of nodes
 Time: O(n)
 Space: O(n)
 
+TODO:
+An iteration of this problem is the Binary Tree Maximum Path Sum
+This problem tries to find the max path sum that mmay or may not include 
+the root. More on this...
 """
