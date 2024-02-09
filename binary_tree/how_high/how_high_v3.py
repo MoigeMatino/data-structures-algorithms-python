@@ -11,6 +11,7 @@ DFS recursive approach
 
 n = number of nodes
 Time: O(n)
-Space: O(n)
+Space: O(h) - Recursion utilizes the call stack and the h calls are made on the 
+stack; h is the height of the tree
 
 """
