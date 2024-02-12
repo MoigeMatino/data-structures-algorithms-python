@@ -34,11 +34,17 @@ def make_graph(edges):
     return graph
 
 """
-depth first iterative
+breadth first iterative
 
 n: # of nodes
 e: # of edges
 
 Time - O(e)
 Space - O(n)
+
+The Breadth First approach is the most appropriate traversal
+for this algorithm because it explores all paths evenly. A Depth
+First traversal will end up exploring a misleading direction till 
+the very end of that path before exploring another node even when 
+the target node is close to the source node.
 """
