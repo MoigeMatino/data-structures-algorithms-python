@@ -12,17 +12,12 @@ def semesters_required(num_courses, prereqs):
         
     return max(distance.values())
     
-def build_graph(num_courses, prereqs):
-    graph = {}
-    
-    for course_id in range(num_courses):
-        graph[course_id] = []
-    
-    for prereq in prereqs:
-        course_a_id, course_b_id = prereq
+def build_graph(prereqs, num_courses):
+    graph = {course_id: [] for course_id in range(num_courses)}
+    for course_a, course_b in prereqs:
+        if course_b not in graph[course_a]:
+            graph[course_a].append(course_b)            
             
-        graph[course_a_id].append(course_b_id)
-        
     return graph
 
 def traversal_distance(graph, node, distance):
