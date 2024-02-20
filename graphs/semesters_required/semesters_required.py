@@ -15,8 +15,7 @@ def semesters_required(num_courses, prereqs):
 def build_graph(prereqs, num_courses):
     graph = {course_id: [] for course_id in range(num_courses)}
     for course_a, course_b in prereqs:
-        if course_b not in graph[course_a]:
-            graph[course_a].append(course_b)            
+        graph[course_a].append(course_b)            
             
     return graph
 
