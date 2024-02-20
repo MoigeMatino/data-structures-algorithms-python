@@ -2,8 +2,8 @@ from collections import Counter
 
 def most_frequent_char(s):
     tracker = Counter(s)
-    proxy = None
+    most_frequent_char = None
     for char in s:
-        if proxy is None or tracker[char] > tracker[proxy]:
-            proxy = char
-    return proxy
+        if most_frequent_char is None or tracker[char] > tracker[most_frequent_char]:
+            most_frequent_char = char
+    return most_frequent_char
