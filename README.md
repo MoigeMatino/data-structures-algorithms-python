@@ -44,7 +44,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [022. create linked list](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/create_linked_list)    
 [023. add lists](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/add_linked_lists)    
 
-## 3. Binary Tree
+## 3. Binary Tree ![Static Badge](https://img.shields.io/badge/Enhancements-Ongoing-green)
 
 [024. depth first values](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/depth_first_values)  
 [025. breadth first values](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/breadth_first_values)  
