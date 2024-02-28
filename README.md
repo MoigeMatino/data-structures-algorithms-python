@@ -2,7 +2,7 @@
 
 This repository mirrors the problem sets from the [structy.net](https://structy.net/) website, offering a comprehensive collection of Python challenges in data structures and algorithms. These problems are structured to be tackled sequentially, ensuring a logical progression in learning, with tasks thoughtfully arranged below in chronological order. As part of the continued commitment to your success, this repository is currently undergoing exciting enhancements. Expect comprehensive test coverage for all problems, with some tests already completed, along with detailed comments to aid better understanding. Stay tuned for these exciting updates and happy coding! 🚀🚀
 
-## :wrench_and_hammer: Enhancements
+## :hammer_and_wrench: Enhancements
 
 * **Comprehensive Test Coverage:** This repository is being enhanced to include thorough test cases for all problems, ensuring the correctness and efficiency of your code solutions.
 * **Detailed Comments:** Detailed comments are being progressively added to the problems and solutions, providing deeper insights into the code, explaining the logic behind specific approaches, and enhancing your understanding of the algorithms and data structures involved.
