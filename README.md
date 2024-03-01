@@ -61,7 +61,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [036. level averages](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/level_averages)  
 [037. leaf list](https://github.com/MoigeMatino/structy.net/edit/main/binary_tree/leaf_list)  
 
-## 4. Graphs ![Static Badge](https://img.shields.io/badge/Enhancements-Ongoing-green)
+## 4. Graphs ![Static Badge](https://img.shields.io/badge/Enhancements-Complete-purple)
 
 [038. has path](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/has_path)  
 [039. undirected path](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/undirected_path)  
