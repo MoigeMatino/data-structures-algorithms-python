@@ -40,12 +40,6 @@ def tree_value_count(root, target):
     return count
 
 """
-Iterative breadth-first traversal is used to traverse the binary tree level by level.
-At each level, the algorithm checks if the value of the node matches the target value.
-If it matches, it increments the count by 1.
-The algorithm iterates through the tree while maintaining a queue of nodes to visit next.
-This approach avoids using recursion and instead uses a queue to keep track of nodes to visit.
-
 Time Complexity Analysis:
 - Each node is visited once: O(n), where n is the number of nodes in the binary tree.
 
@@ -54,4 +48,10 @@ Space Complexity Analysis:
 (worst-case scenario).
 Overall: O(n)
 
+Further Notes:
+Iterative breadth-first traversal is used to traverse the binary tree level by level.
+At each level, the algorithm checks if the value of the node matches the target value.
+If it matches, it increments the count by 1.
+The algorithm iterates through the tree while maintaining a queue of nodes to visit next.
+This approach avoids using recursion and instead uses a queue to keep track of nodes to visit.
 """
