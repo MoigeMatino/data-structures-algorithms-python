@@ -1,19 +1,25 @@
 def how_high(node):
-    """
-    Calculates the height of a binary tree starting from a given node(root).
+  """
+  This function calculates the height of a binary tree using a recursive approach.
 
-    Args:
-    - node: The root node of the binary tree.
+  Args:
+      node: The root node of the binary tree.
 
-    Returns:
-    - int: The height of the binary tree.    
-    """
-    if node is None:
-        return -1
+  Returns:
+      The height of the binary tree, or -1 if the tree is empty.
+  """
 
-    left_height = how_high(node.left)
-    right_height = how_high(node.right)
-    return 1 + max(left_height, right_height)
+  # Base case: Empty tree
+  if node is None:
+    return -1  # Empty tree has a height of -1
+
+  # Recursive calls to calculate left and right subtrees' heights
+  left_height = how_high(node.left)
+  right_height = how_high(node.right)
+
+  # Return the height of the current node (1 + max(left, right))
+  return 1 + max(left_height, right_height)
+
 
 """
 Time Complexity Analysis:
@@ -25,7 +31,8 @@ Space Complexity Analysis:
 Overall: O(h)
 
 Further Notes:
-- This function recursively calculates the height of the binary tree by considering the maximum height of its
-  left and right subtrees and adding 1 to account for the current node. The base case is when the node is None,
-  in which case the height is -1.
+This algorithm implements a recursive approach to calculate the height of a binary tree. 
+It works by checking for the base case (empty tree) and then recursively calling itself 
+on the left and right subtrees to obtain their heights. Finally, it returns 1 (for the current 
+node) plus the maximum height found from the left and right subtrees.
 """
