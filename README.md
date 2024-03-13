@@ -98,6 +98,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 
 ## 6. Stacks
 [067. paired parentheses](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/paired_parentheses)  
+[068. befitting brackets](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/befitting_brackets)  
 
 
 
