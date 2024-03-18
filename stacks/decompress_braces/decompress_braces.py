@@ -15,3 +15,13 @@ def decompress_braces(string):
             elif char != '{':
                 stack.append(char)
     return ''.join(stack)
+
+"""
+Complexity Analysis
+
+    s = length of string
+    m = count of brace pairs
+    Time: O((9^m) * s)
+    Space: O((9^m) * s)
+
+"""
