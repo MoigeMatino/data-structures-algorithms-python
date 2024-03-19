@@ -71,5 +71,3 @@ decompress_braces("2{l2{if}azu}l")
 decompress_braces("3{al4{ec}2{icia}}")
 # -> alececececiciaiciaalececececiciaiciaalececececiciaicia 
 ```
-
-**Note**: The last two tests are not valid according to the problem statement, but they were included in the sample input/output. They should be considered valid before continuing the analysis and after finishing the analysis.
