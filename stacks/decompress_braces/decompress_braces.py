@@ -59,7 +59,7 @@ def decompress_braces(string):
 """
 Complexity Analysis
   - s: length of the input string
-  - m: number of brace pairs ('{}') in the string
+  - m: number of brace groups ('{abc}') in the string
 
 Time Complexity: O((9^m) * s) in the worst case.  
 In the worst case, each opening brace can be followed by any combination of the 9 digits (for repetition count) and other characters. 
