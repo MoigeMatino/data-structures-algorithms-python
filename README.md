@@ -96,7 +96,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [065. quickest concat](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/quickest_concat)    
 [066. knightly number](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/knightly_number)     
 
-## 6. Stacks
+## 6. Stacks ![Static Badge](https://img.shields.io/badge/Enhancements-Complete-purple)
 [067. paired parentheses](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/paired_parentheses)  
 [068. befitting brackets](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/befitting_brackets)  
 [069. decompress braces](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/decompress_braces)  
