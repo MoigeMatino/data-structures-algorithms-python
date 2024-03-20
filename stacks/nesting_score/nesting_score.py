@@ -1,50 +1,50 @@
 def nesting_score(string):
-  """
-  Calculates the nesting score of a string containing square brackets '[]'.
+    """
+    Calculates the nesting score of a string containing square brackets '[]'.
 
-  Args:
-      string: The string to be evaluated for nesting score. The string can only
-              contain square brackets '[]'.
+    Args:
+        string: The string to be evaluated for nesting score. The string can only
+                contain square brackets '[]'.
 
-  Returns:
-      The total nesting score of the brackets in the string.
+    Returns:
+        The total nesting score of the brackets in the string.
 
-  """
+    """
 
-  stack = [0]  # Stack to keep track of current nesting depth and accumulated score
+    stack = [0]  # Stack to keep track of current nesting depth and accumulated score
 
-  for brace in string:
-    if brace == '[':  # Encountering an opening bracket '['
-      """
-      # Push a new level onto the stack
-      When encountering an opening bracket, push a new level (0) onto the stack.
-      This represents a new nesting level starting at a score of 0.
-      """
-      stack.append(0)
-    else:  # Encountering a closing bracket ']'
-      """
-      # Handle closing bracket ']'
-      If the character is a closing bracket, pop the value from the stack. This
-      value represents the score accumulated at the current nesting level.
+    for brace in string:
+        if brace == '[':  # Encountering an opening bracket '['
+            """
+            # Push a new level onto the stack
+            When encountering an opening bracket, push a new level (0) onto the stack.
+            This represents a new nesting level starting at a score of 0.
+            """
+            stack.append(0)
+        else:  # Encountering a closing bracket ']'
+            """
+            # Handle closing bracket ']'
+            If the character is a closing bracket, pop the value from the stack. This
+            value represents the score accumulated at the current nesting level.
+            
+            - Check for closing bracket:
+                If the popped value is 0, it signifies an unmatched opening bracket which is now getting closed 
+                with this closing bracket encounter. Add 1 to the new top value in the stack.
 
-      - Check for closing bracket:
-        If the popped value is 0, it signifies an unmatched opening bracket which is now getting closed 
-        with this closing bracket encounter. Add 1 to the new top value in the stack.
+            - Update score for the previous level:
+                If the popped value is not 0 (score accumulated from other previous nested levels ), calculate
+                the score for the nested level. The score for the nested level is
+                double the score of the current level that just closed.
+                Add this score to the top element (previous level) remaining on the stack.
+            """
+            popped_value = stack.pop()
+            if popped_value == 0:
+                stack[-1] += 1
+            else:
+                nested_score = popped_value * 2  # Calculate score for previous level(s)
+                stack[-1] += nested_score  # Update score on the previous level
 
-      - Update score for the previous level:
-        If the popped value is not 0 (score accumulated from other previous nested levels ), calculate
-        the score for the nested level. The score for the nested level is
-        double the score of the current level that just closed.
-        Add this score to the top element (previous level) remaining on the stack.
-      """
-      popped_value = stack.pop()
-      if popped_value == 0:
-        stack[-1] += 1
-      else:
-        nested_score = popped_value * 2  # Calculate score for previous level(s)
-        stack[-1] += nested_score  # Update score on the previous level
-
-  return stack[0]  # Return the score from the remaining element (top level)
+    return stack[0]  # Return the score from the remaining element (top level)
 
 """
 Complexity Analysis
