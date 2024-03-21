@@ -1,45 +1,49 @@
 from collections import deque
 
 def tree_levels(root):
-    if root is None:
-        return []
-    
-    queue = deque([root])
-    level_nodes = []
-    
-    while queue:
-        level = []
-        
-        for _ in range(len(queue)):
-            current = queue.popleft()
-            level.append(current.val)
-            
-            if current.left:
-                queue.append(current.left)
-            
-            if current.right:
-                queue.append(current.right)
-        
-        level_nodes.append(level)
-    
-    return level_nodes
+   """
+   Collects the values of a binary tree's nodes level-by-level using Breadth-First Search (BFS).
+
+   Args:
+       root: The root node of the binary tree.
+
+   Returns:
+       A list of lists, where each inner list represents the values of the nodes at a single level of the tree.
+       If the tree is empty, returns an empty list.
+   """
+
+   if root is None:  # Handle empty tree case
+       return []
+
+   queue = deque([root])  # Initialize queue with the root node
+   level_nodes = []  # List to store nodes for each level
+
+   while queue:  # Continue until the queue is empty
+       current_level_nodes = []  # List to store nodes at the current level
+
+       for _ in range(len(queue)):  # Process all nodes at the current level
+           current = queue.popleft()  # Get the first node from the queue
+           current_level_nodes.append(current.val)   # Append its value to the current level's list
+
+           if current.left:  # Add children to the queue for processing in subsequent levels
+               queue.append(current.left)
+           if current.right:
+               queue.append(current.right)
+
+       level_nodes.append(current_level_nodes)  # Add the completed level to the result list
+
+   return level_nodes  # Return the list of levels
 
 """
-BFS iterative
+**Time and Space Complexity:**
 
-n - number of nodes
-Time: O(n)
-Space: O(n)
+- Time Complexity: O(n), where n is the number of nodes in the tree. Each node is visited once.
+- Space Complexity: O(n), due to the queue and level_nodes list, which can store up to n nodes in the worst case.
 
-NB:
-Even though there is a nested for loop inside the while loop, the time complexity is still O(n) and not O(n^2).
+**Approach and Reasoning:**
 
-Here's why:
-
-    - The outer while loop runs at most n times because there are at most n nodes in the tree.
-    - The inner for loop runs at most n times, because it processes all the nodes on the current level of the tree, and there are at most n nodes in the tree.
-    - The number of times the inner for loop runs is proportional to the number of nodes in the tree, not the square of the number of nodes.
-
-So the overall time complexity of the tree_levels function is O(n), not O(n^2).
-
+- This algorithm employs a BFS approach, iteratively visiting nodes level by level.
+- It leverages a queue data structure to maintain the order of nodes to be processed.
+- It avoids recursion, making it suitable for large trees or those with potential stack overflow issues.
+- It explicitly tracks the current level to group nodes correctly.
 """
