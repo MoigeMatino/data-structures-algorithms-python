@@ -44,7 +44,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [022. create linked list](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/create_linked_list)    
 [023. add lists](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/add_linked_lists)    
 
-## 3. Binary Tree ![Static Badge](https://img.shields.io/badge/Enhancements-Ongoing-green)
+## 3. Binary Tree ![Static Badge](https://img.shields.io/badge/Comments-Complete-purple)
 
 [024. depth first values](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/depth_first_values)  
 [025. breadth first values](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/breadth_first_values)  
@@ -61,7 +61,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [036. level averages](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/level_averages)  
 [037. leaf list](https://github.com/MoigeMatino/structy.net/edit/main/binary_tree/leaf_list)  
 
-## 4. Graphs ![Static Badge](https://img.shields.io/badge/Enhancements-Complete-purple)
+## 4. Graphs ![Static Badge](https://img.shields.io/badge/Comments-Complete-purple)
 
 [038. has path](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/has_path)  
 [039. undirected path](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/undirected_path)  
@@ -96,7 +96,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [065. quickest concat](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/quickest_concat)    
 [066. knightly number](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/knightly_number)     
 
-## 6. Stacks ![Static Badge](https://img.shields.io/badge/Enhancements-Complete-purple)
+## 6. Stacks ![Static Badge](https://img.shields.io/badge/Comments-Complete-purple)
 [067. paired parentheses](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/paired_parentheses)  
 [068. befitting brackets](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/befitting_brackets)  
 [069. decompress braces](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/decompress_braces)  
