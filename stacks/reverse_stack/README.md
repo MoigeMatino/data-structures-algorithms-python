@@ -7,8 +7,8 @@ Given a stack represented by an array, implement a function `reverse_stack` that
 ### **Example**
 Given an input stack which is a list of integers, implement the function `reverse_stack` that reverses the order of elements in this stack:
 
-        Input = `[1, 2, 3, 4, 5]`, 
-        Expected output = `[5, 4, 3, 2, 1]`.
+        Input = [1, 2, 3, 4, 5], 
+        Expected output = [5, 4, 3, 2, 1].
 
 
 
