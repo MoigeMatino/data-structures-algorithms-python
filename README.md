@@ -101,6 +101,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [068. befitting brackets](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/befitting_brackets)  
 [069. decompress braces](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/decompress_braces)  
 [070. nesting score](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/nesting_score)  
+[BONUS: reverse stack](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/reverse_stack)  
 
 
 
