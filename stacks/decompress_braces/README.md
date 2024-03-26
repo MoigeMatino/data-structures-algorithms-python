@@ -1,7 +1,7 @@
 
 # decompress braces
 
-Write a function, `decompress_braces`, that takes in a compressed string as an argument. The ## test_function0: should return the string 
+Write a function, `decompress_braces`, that takes in a compressed string as an argument. The function should return the string 
 decompressed.
 
 The compression format of the input string is `'n{sub_string}'`, where the `sub_string` within braces should be repeated `n` times.
