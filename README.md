@@ -29,7 +29,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [009. intersection](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/intersection)  
 [010. five sort](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/five_sort)  
 
-## 2. Linked Lists  
+## 2. Linked Lists ![Static Badge](https://img.shields.io/badge/Enhancements-Ongoing-green)
 
 [011. traversal](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/traversal)  
 [012. sum list](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/sum_list)  
