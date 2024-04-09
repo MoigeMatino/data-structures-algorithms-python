@@ -18,7 +18,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [001. max value](https://github.com/MoigeMatino/structy.net/tree/main/introduction/max_value)  
 [002. is prime](https://github.com/MoigeMatino/structy.net/tree/main/introduction/is_prime)  
 
-## 1. Arrays and Strings
+## 1. Arrays and Strings ![Static Badge](https://img.shields.io/badge/Enhancements-InProgress-green)
 
 [003. uncompress](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/uncompress)   
 [004. compress](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/compress)   
@@ -29,7 +29,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [009. intersection](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/intersection)  
 [010. five sort](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/five_sort)  
 
-## 2. Linked Lists ![Static Badge](https://img.shields.io/badge/Enhancements-InProgress-green)
+## 2. Linked Lists ![Static Badge](https://img.shields.io/badge/Comments-Complete-purple)
 
 [011. traversal](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/traversal)  
 [012. sum list](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/sum_list)  
