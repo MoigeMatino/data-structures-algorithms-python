@@ -1,32 +1,37 @@
-# using the Counter from the collections module
-# we can count the occurrences of each character in a string.
-
 from collections import Counter
 
 def anagrams(s1, s2):
-    s1_dict = Counter(s1)
-    s2_dict = Counter(s2)
+    """
+    Checks if two strings are anagrams (have the same characters with the same frequency).
+
+    Args:
+        s1 (str): The first string.
+        s2 (str): The second string.
+
+    Returns:
+        bool: True if the strings are anagrams, False otherwise.
+    """
+
+    # Create frequency counters for both strings using the Counter class
+    s1_dict = Counter(s1)  # Count character occurrences in s1
+    s2_dict = Counter(s2)  # Count character occurrences in s2
+
+    # Check if the character counts are equal (same characters with same frequencies)
     return s1_dict == s2_dict
 
-"""
-n - number of elements in s1
-m - number of elements in s2
+# Time Complexity: O(n + m)
+# The `Counter` constructor iterates through each character in the input string (n or m characters).
+# In the worst case, it needs to iterate through all characters. This results in a linear time complexity of O(n) for each string.
+# The `anagrams` function calls `Counter` twice, leading to a combined time complexity of O(n + m).
 
-Time Complexity: O(n+m)
+# Space Complexity: O(n + m)
+# Both `anagrams` creates Counter objects (dictionaries) to store character frequencies.
+# In the worst case, each Counter object can hold all unique characters from the respective strings.
+# This leads to a space complexity of O(n) for each string and O(n + m) overall.
 
-Constructing these counters involves iterating 
-through each character in each string, resulting 
-in a time complexity of O(n + m), where n, m is the length 
-strings s1 and s2 respectively.
-
-Space complexity: O(n+m)
-
-The space complexity of this solution is also O(n+m). We are
-storing two dictionaries (or Counter objects), one for each input string. 
-The size of these dictionaries depends on the number of unique characters 
-in their respective strings. In the worst case scenario, if all characters 
-in both strings are unique, then the space complexity would
-be O(n*m), but since usually there will be common characters between
-the two strings, the actual space complexity will be less than that.
-
-"""
+# Reasoning and Approach:
+# This code utilizes the `Counter` class from the `collections` module for efficient anagram checking.
+# `Counter` provides a dictionary-like object that automatically counts the occurrences of elements in an iterable (like a string).
+# The code creates Counter objects for both strings (`s1_dict` and `s2_dict`). These objects efficiently store the frequency of each character.
+# Finally, it compares these counters using the `==` operator, which checks if they have the same keys (characters) with the same values (frequencies).
+# This approach leverages the built-in functionality of `Counter` for efficient character counting and comparison, resulting in a time complexity of O(n + m).
