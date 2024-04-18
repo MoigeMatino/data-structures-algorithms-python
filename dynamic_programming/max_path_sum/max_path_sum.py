@@ -13,12 +13,6 @@ def max_path_sum(grid: list[list[int]]) -> int:
     through a given grid. A valid path starts from the top-left corner and reaches the
     bottom-right corner by moving only down or right. The sum of the path is calculated by
     adding the value at each grid position visited along the path.
-
-    **Memoization:**
-    This approach utilizes memoization to optimize the problem. It stores previously computed results in a
-    dictionary ('memo') to avoid redundant calculations. When a specific grid position is encountered
-    again, the stored value (maximum sum from that position) is retrieved instead of making another
-    recursive call. This significantly improves the time complexity compared to the naive recursive approach.
     """
 
     # Delegate the actual calculation with memoization to the helper function
@@ -64,16 +58,21 @@ def _max_path_sum(grid: list[list[int]], r: int, c: int, memo: dict[tuple[int, i
     memo[pos] = max_sum
     return memo[pos]
 
-# Example usage
-grid = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-]
-print(max_path_sum(grid))  # Output: 29 (1 + 4 + 7 + 8 + 9)
-
 # Time Complexity: O(r * c)
 # - Memoization avoids redundant calculations for the maximum sum from each grid position.
 # - Each position is visited at most once, and the maximum sum from that position is stored in the memo.
 # - In the worst case, the function explores all possible paths, leading to a maximum of 'r' (rows) * 'c' (columns)
-#   unique positions to visit. This results in
+#   unique positions to visit. 
+
+# Space Complexity: O(r * c)
+#    - In the worst case, the `memo` dictionary can store the maximum sum for each unique position in the grid.
+#    - There can be a maximum of 'r' (rows) * 'c' (columns) unique positions.
+#    - Each entry in the memo dictionary stores a key (tuple of row and column indices) and a value (maximum sum).
+#    - Assuming constant space for the key and value, the space complexity is dominated by the number of entries,
+#      resulting in O(r * c).
+
+# Approach:
+# The approach utilizes memoization to optimize the problem. It stores previously computed results
+# in a dictionary (`memo`) to avoid redundant calculations. When a specific grid position is encountered
+# again, the stored value (maximum sum from that position) is retrieved instead of making another
+# recursive call. This significantly improves the time complexity compared to the naive recursive approach.   
