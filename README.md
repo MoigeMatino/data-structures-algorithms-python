@@ -87,7 +87,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [055. min change](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/min_change)  
 [056. count path](https://github.com/MoigeMatino/data-structures-algorithms-structy/blob/main/dynamic_programming/count_paths)  
 [057. max path sum](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/max_path_sum)  
-[058. non adjacent sum](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/adjacent_sum)  
+[058. non adjacent sum](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/non_adjacent_sum)  
 [059. summing squares](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/summing_squares)    
 [060. counting change](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/counting_change)    
 [061. array stepper](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/array_stepper)    
