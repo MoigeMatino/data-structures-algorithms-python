@@ -18,8 +18,7 @@ def min_change(amount: int, coins: list[int]) -> int:
     # Handle the case where no combination of coins can make the amount
     if ans == float('inf'):
         return -1
-    else:
-        return ans
+    return ans
 
 def _min_change(amount: int, coins: list[int], memo: dict[int, int]) -> int:
     """
