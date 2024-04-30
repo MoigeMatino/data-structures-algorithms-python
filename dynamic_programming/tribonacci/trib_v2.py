@@ -41,12 +41,12 @@ def _tribonacci(n: int, memo: dict[int, int]) -> int:
     if n == 2:
         return 1
 
-    # Calculate the Tribonacci number for n and store it in the memo
-    memo[n] = _tribonacci(n - 1, memo) + _tribonacci(n - 2, memo) + _tribonacci(n - 3, memo)
-    return memo[n]
+    # Calculate the Tribonacci number for n
+    trib_n = _tribonacci(n - 1, memo) + _tribonacci(n - 2, memo) + _tribonacci(n - 3, memo)
 
-# Example usage
-print(tribonacci(6))  # Output: 4
+    # store the Tribonacci number for n in the memo
+    memo[n] = trib_n
+    return memo[n]
 
 # Time Complexity: O(n)
 # - The memoization technique avoids redundant calculations of subproblems.
