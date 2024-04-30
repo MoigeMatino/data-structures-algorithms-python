@@ -39,8 +39,11 @@ def _fib(n: int, memo: dict[int, int]) -> int:
     if n in memo:
         return memo[n]
 
-    # Calculate the Fibonacci number for n and store it in the memo
-    memo[n] = _fib(n - 1, memo) + _fib(n - 2, memo)
+    # Calculate the Fibonacci number for n 
+    fib_n =  _fib(n - 1, memo) + _fib(n - 2, memo)
+
+    # store the Fibonacci number for n in the memo
+    memo[n] = fib_n
     return memo[n]
 
 # Time Complexity: O(n)
