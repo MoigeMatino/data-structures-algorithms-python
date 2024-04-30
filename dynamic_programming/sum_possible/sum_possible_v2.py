@@ -53,7 +53,7 @@ def _sum_possible(amount: int, numbers: list[int], memo: dict[int, bool]) -> boo
 
     # If none of the numbers led to a solution, store False in the memo and return False
     memo[amount] = False
-    return False
+    return memo[amount]
 
 # Time Complexity: O(a * n)
 # - The memoization technique avoids redundant calculations of subproblems.
