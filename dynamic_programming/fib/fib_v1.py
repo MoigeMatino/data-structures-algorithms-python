@@ -18,8 +18,10 @@ def fib(n: int) -> int:
         return n
 
     # Recursive case: f(n) = f(n-1) + f(n-2)
-    else:
-        return fib(n - 1) + fib(n - 2)
+    fib_n = fib(n - 1) + fib(n - 2)
+
+    # Return the nth fib number
+    return fib_n
 
 # Time Complexity: O(2^n)
 # - Each recursive call calculates the Fibonacci number for a smaller input (n-1 and n-2).
