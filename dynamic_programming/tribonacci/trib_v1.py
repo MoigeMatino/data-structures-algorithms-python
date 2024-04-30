@@ -28,11 +28,8 @@ def tribonacci(n: int) -> int:
         return 1
 
     # Recursive case: T(n) = T(n-1) + T(n-2) + T(n-3)
-    else:
-        return tribonacci(n - 1) + tribonacci(n - 2) + tribonacci(n - 3)
-
-# Example usage (for small n to avoid timeouts)
-print(tribonacci(4))  # Output: 4
+    trib_n = tribonacci(n - 1) + tribonacci(n - 2) + tribonacci(n - 3)
+    return trib_n
 
 # Time Complexity: O(3^n)
 # - Each recursive call calculates the Tribonacci number for three smaller inputs (n-1, n-2, n-3).
