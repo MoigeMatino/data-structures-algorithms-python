@@ -13,9 +13,11 @@ def count_paths(grid: list[list[str]]) -> int:
     through a given grid. A valid path starts from the top-left corner and reaches the 
     bottom-right corner by moving only down or right, avoiding obstacles ('X').
     """
+    # create hash map to cache subproblem results
+    memo = {}
 
     # Delegate the actual calculation with memoization to the helper function
-    return _count_paths(grid, 0, 0, {})
+    return _count_paths(grid, 0, 0, memo)
 
 def _count_paths(grid: list[list[str]], r: int, c: int, memo: dict[tuple[int, int], int]) -> int:
     """
@@ -38,7 +40,7 @@ def _count_paths(grid: list[list[str]], r: int, c: int, memo: dict[tuple[int, in
     if pos in memo:
         return memo[pos]
 
-    # Base case 1: Invalid position (outside grid or obstacle)
+    # Base case 1: Invalid position (outside grid or through a wall)
     if r < 0 or r >= len(grid) or c < 0 or c >= len(grid[0]) or grid[r][c] == 'X':
         return 0
 
