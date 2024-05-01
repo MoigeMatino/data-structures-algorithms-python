@@ -10,7 +10,7 @@ def _non_adjacent_sum(nums: list[int], idx:int) ->int:
     Returns:
         int: The maximum non-adjacent sum of the list.
     """
-    if idx == len(nums): # because of off by one errors that could be cause by incrementing the idx by 2, we also need to check if idx could be greater than the length of the nums list
+    if idx >= len(nums): # because of off by one errors that could be cause by incrementing the idx by 2, we also need to check if idx could be greater than the length of the nums list
         return 0
     
     include = nums[idx] + _non_adjacent_sum(nums, idx+2)
