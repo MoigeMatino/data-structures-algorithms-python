@@ -41,23 +41,20 @@ def _max_path_sum(grid, r, c):
     return grid[r][c] + max(right_path_sum, down_path_sum)
 
 
-"""
-Docstring Section:
+# Time Complexity:
+# The time complexity of this algorithm is O(2^(m+n)), where m is the number of rows and n is the number of columns in the grid. 
+# This is because each cell can lead to two recursive calls, leading to an exponential number of calls in the worst case.
 
-Time Complexity:
-The time complexity of this algorithm is O(2^(m+n)), where m is the number of rows and n is the number of columns in the grid. 
-This is because each cell can lead to two recursive calls, leading to an exponential number of calls in the worst case.
+# Space Complexity:
+# The space complexity is O(m+n) due to the recursion stack. In the worst case, the maximum depth of the recursion stack will be m+n.
 
-Space Complexity:
-The space complexity is O(m+n) due to the recursion stack. In the worst case, the maximum depth of the recursion stack will be m+n.
+# Further Notes:
 
-Further Notes:
+# Approach and Reasoning:
+# 1. The algorithm uses a recursive approach to explore all possible paths from the top-left corner to the bottom-right corner of the grid.
+# 2. For each cell, it calculates the maximum path sum by considering the paths to the cell directly below and the cell directly to the right.
+# 3. Base cases are defined to handle out-of-bounds conditions (returning negative infinity) and reaching the bottom-right corner (returning the value of that cell).
+# 4. The result for each cell is the value of the current cell plus the maximum of the sums of the two possible paths (right and down).
 
-Approach and Reasoning:
-1. The algorithm uses a recursive approach to explore all possible paths from the top-left corner to the bottom-right corner of the grid.
-2. For each cell, it calculates the maximum path sum by considering the paths to the cell directly below and the cell directly to the right.
-3. Base cases are defined to handle out-of-bounds conditions (returning negative infinity) and reaching the bottom-right corner (returning the value of that cell).
-4. The result for each cell is the value of the current cell plus the maximum of the sums of the two possible paths (right and down).
+# This naive recursive approach can be optimized using dynamic programming or memoization to avoid redundant calculations and improve efficiency.
 
-This naive recursive approach can be optimized using dynamic programming or memoization to avoid redundant calculations and improve efficiency.
-"""
