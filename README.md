@@ -95,7 +95,8 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [063. overlap subsequence](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/overlap_subsequence)     
 [064. can concat](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/can_concat)    
 [065. quickest concat](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/quickest_concat)    
-[066. knightly number](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/knightly_number)     
+[066. knightly number](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/knightly_number)  
+[BONUS: count bits](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/count_bits)  
 
 ## 6. Stacks ![Static Badge](https://img.shields.io/badge/Comments-Complete-purple)
 [067. paired parentheses](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/paired_parentheses)  
