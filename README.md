@@ -99,6 +99,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [BONUS: count bits](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/count_bits)  
 [BONUS: 0/1 knapsack](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/01_knapsack)  
 [BONUS: word break](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/word_break)  
+[BONUS: house robber](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/house_robber)  
 
 ## 6. Stacks ![Static Badge](https://img.shields.io/badge/Comments-Complete-purple)
 [067. paired parentheses](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/paired_parentheses)  
