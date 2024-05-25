@@ -79,7 +79,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [050. prereqs possible](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/prereqs_available)  
 [051. knight attack](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/knight_attack)  
 
-## 5. Dynamic Programming ![Static Badge](https://img.shields.io/badge/Enhancements-InProgress-green)
+## 5. Dynamic Programming ![Static Badge](https://img.shields.io/badge/Comments-Complete-purple)
 
 [052. fib](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/fib)  
 [053. tribonacci](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/tribonacci)  
