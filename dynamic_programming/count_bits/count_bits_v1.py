@@ -68,11 +68,10 @@ def count_ones(binary_repn: list[int]) -> int:
 
 
 # Time Complexity: O(n * log n)
-#The time complexity of the `counting_bits` function is O(n log n). This is because converting each number to its binary representation 
-# takes O(log n) time, and this conversion is done for each of the n numbers. The `count_ones` function takes O(log n) time to count the 
-# number of 1's in the binary representation.
+#The time complexity of the `counting_bits` function is O(n log n). 
 # The `decimal_to_binary` function has a time complexity of O(log n) for converting a decimal number to its binary representation.
 # The `count_ones` function has a time complexity of O(log n) for counting the number of 1's in the binary representation.
+# Additionally the `counting_bits` loops through the numbers with a time complexity of n.
 
 # Space Complexity: O(n)
 # The space complexity of this algorithm is O(n) due to the lookup table `lookup_table` that stores the 
