@@ -1,6 +1,6 @@
 from collections import deque
 
-def update_matrix(mat: list[list[int]]) -> list[list[int]]:
+def find_min_distance_to_zero(mat: list[list[int]]) -> list[list[int]]:
     rows = len(mat)
     cols = len(mat[0])
     distances = [[float("inf")] * cols for _ in range(rows)]
