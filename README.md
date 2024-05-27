@@ -18,7 +18,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [001. max value](https://github.com/MoigeMatino/structy.net/tree/main/introduction/max_value)  
 [002. is prime](https://github.com/MoigeMatino/structy.net/tree/main/introduction/is_prime)  
 
-## 1. Arrays and Strings ![Static Badge](https://img.shields.io/badge/Comments-Complete-purple)
+## 1. Arrays and Strings 
 
 [003. uncompress](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/uncompress)   
 [004. compress](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/compress)   
@@ -29,7 +29,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [009. intersection](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/intersection)  
 [010. five sort](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/five_sort)  
 
-## 2. Linked Lists ![Static Badge](https://img.shields.io/badge/Comments-Complete-purple)
+## 2. Linked Lists 
 
 [011. traversal](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/traversal)  
 [012. sum list](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/sum_list)  
@@ -45,7 +45,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [022. create linked list](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/create_linked_list)    
 [023. add lists](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/add_linked_lists)    
 
-## 3. Binary Tree ![Static Badge](https://img.shields.io/badge/Comments-Complete-purple)
+## 3. Binary Tree 
 
 [024. depth first values](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/depth_first_values)  
 [025. breadth first values](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/breadth_first_values)  
@@ -62,7 +62,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [036. level averages](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/level_averages)  
 [037. leaf list](https://github.com/MoigeMatino/structy.net/edit/main/binary_tree/leaf_list)  
 
-## 4. Graphs ![Static Badge](https://img.shields.io/badge/Comments-Complete-purple)
+## 4. Graphs
 
 [038. has path](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/has_path)  
 [039. undirected path](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/undirected_path)  
@@ -79,7 +79,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [050. prereqs possible](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/prereqs_available)  
 [051. knight attack](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/graphs/knight_attack)  
 
-## 5. Dynamic Programming ![Static Badge](https://img.shields.io/badge/Comments-Complete-purple)
+## 5. Dynamic Programming 
 
 [052. fib](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/fib)  
 [053. tribonacci](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/tribonacci)  
@@ -100,8 +100,9 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [BONUS: 0/1 knapsack](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/01_knapsack)  
 [BONUS: word break](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/word_break)  
 [BONUS: house robber](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/house_robber)  
+[BONUS: 01 matrix](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/01_matrix)  
 
-## 6. Stacks ![Static Badge](https://img.shields.io/badge/Comments-Complete-purple)
+## 6. Stacks 
 [067. paired parentheses](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/paired_parentheses)  
 [068. befitting brackets](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/befitting_brackets)  
 [069. decompress braces](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/decompress_braces)  
