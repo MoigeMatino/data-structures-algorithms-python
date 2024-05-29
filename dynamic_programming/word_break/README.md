@@ -6,11 +6,11 @@ You are given a string, `s`, and an array of strings, `word_dict`, representing 
 
 Constraints:
 
-    1≤ s.length ≤ 20
+    1 ≤ s.length ≤ 20
 
-    1≤ word_dict.length ≤ 1000
+    1 ≤ word_dict.length ≤ 1000
 
-    1≤ word_dict[i].length ≤ 10
+    1 ≤ word_dict[i].length ≤ 10
 
     s and word_dict[i] consist of only lowercase English letters.
 
