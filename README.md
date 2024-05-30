@@ -91,7 +91,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [059. summing squares](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/summing_squares)    
 [060. counting change](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/counting_change)    
 [061. array stepper](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/array_stepper)    
-[062. max plain subsequence](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/max_palin_subsequence)    
+[062. max palin subsequence](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/max_palin_subsequence)    
 [063. overlap subsequence](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/overlap_subsequence)     
 [064. can concat](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/can_concat)    
 [065. quickest concat](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/quickest_concat)    
