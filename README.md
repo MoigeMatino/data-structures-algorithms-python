@@ -91,7 +91,8 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [059. summing squares](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/summing_squares)    
 [060. counting change](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/counting_change)    
 [061. array stepper](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/array_stepper)    
-[062. max palin subsequence](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/max_palin_subsequence)    
+[062. max palin subsequence](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/max_palin_subsequence)  
+[BONUS: palindromic strings](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/palindromic_substrings)  
 [063. overlap subsequence](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/overlap_subsequence)     
 [064. can concat](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/can_concat)    
 [065. quickest concat](https://github.com/MoigeMatino/data-structures-algorithms-structy/tree/main/dynamic_programming/quickest_concat)    
@@ -101,7 +102,6 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [BONUS: word break](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/word_break)  
 [BONUS: house robber](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/house_robber)  
 [BONUS: 01 matrix](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/01_matrix)  
-[BONUS: palindromic strings](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/palindromic_substrings)  
 
 ## 6. Stacks 
 [067. paired parentheses](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/paired_parentheses)  
