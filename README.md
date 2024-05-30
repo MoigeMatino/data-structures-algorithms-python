@@ -101,6 +101,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [BONUS: word break](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/word_break)  
 [BONUS: house robber](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/house_robber)  
 [BONUS: 01 matrix](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/01_matrix)  
+[BONUS: palindromic strings](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/dynamic_programming/palindromic_substrings)  
 
 ## 6. Stacks 
 [067. paired parentheses](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/stacks/paired_parentheses)  
