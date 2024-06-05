@@ -28,6 +28,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [008. pair product](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/pair_product)       
 [009. intersection](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/intersection)  
 [010. five sort](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/five_sort)  
+[BONUS: sum of three values](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/arrays_and_strings/sum_of_three_values)  
 
 ## 2. Linked Lists 
 
