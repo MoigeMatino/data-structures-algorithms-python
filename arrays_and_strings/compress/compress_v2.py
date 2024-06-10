@@ -31,6 +31,7 @@ def compress(s):
                 result.append(s[i])  # Append character to result list
             # Move the starting index to the current character
             i = j
+            j += 1
 
     # Convert the list of characters to a string for return
     return ''.join(result)
