@@ -34,11 +34,9 @@ def compress(s):
     return result
 
 # Time Complexity: O(n^2) in the worst case
-# The nested loops iterate through the string. In the worst case, each character
-# comparison might trigger string concatenation within the if block. String
-# concatenation in Python creates a new string, potentially leading to n iterations
+# String concatenation in Python creates a new string, potentially leading to n iterations
 # with linear time complexity (O(n)) for copying the existing string content.
-# This nested structure can result in overall time complexity of O(n^2).
+# This concatenation nested within the loop structure can result in overall time complexity of O(n^2).
 
 # Space Complexity: O(n)
 # The `result` string grows as characters are appended during compression,
