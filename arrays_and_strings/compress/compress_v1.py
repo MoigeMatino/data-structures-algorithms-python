@@ -30,6 +30,7 @@ def compress(s):
                 result += str(count) + s[i]
             # Move the starting index to the current character
             i = j
+            j += 1
 
     return result
 
