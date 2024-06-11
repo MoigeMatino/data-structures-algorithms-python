@@ -22,8 +22,9 @@ def intersection(a: list[int], b: list[int]) -> list[int]:
 #   (depending on how many elements are in the intersection).
 # In total, the time complexity is linear in the sum of the lengths of the input lists (n + m).
 
-# Space Complexity: O(n)
-# - The `my_set` stores up to n unique elements from list a in the worst case.
+# Space Complexity: O(min(n, m))
+# - The `intersection` list stores the elements found in both lists.
+# - In the worst case, it will store all elements from the shorter list (min(n, m)).
 
 # Approach and Reasoning:
 # This approach utilizes a set and list comprehension for efficient intersection.
