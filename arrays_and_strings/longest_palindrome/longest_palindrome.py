@@ -46,9 +46,6 @@ def longest_palindrome(s: str) -> int:
 
   return max_palindrome
 
-
-# Docstring Section
-
 # Time Complexity: O(n)
 # The time complexity of this algorithm is O(n) where n is the length of the input string. This is because:
 # * The loop iterating through the characters in the string runs n times.
