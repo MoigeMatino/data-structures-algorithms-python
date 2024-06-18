@@ -91,13 +91,7 @@ def has_path(graph: dict[int, list[int]], src: int, dst: int, visited: set[int])
 
   return False  # If no path is found from any neighbor, return False
 
-
-# Docstring Section
-
 # Time Complexity: O(E)
 # The time complexity of this algorithm is O(E), where E is the number of edges in the graph.
 
-Space: O(e)
-
-"""
-    
+# Space: O(e)    
