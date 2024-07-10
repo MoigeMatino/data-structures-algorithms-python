@@ -48,9 +48,4 @@ Space Complexity: O(n)
 The function creates a new list `nodes` to store the values. The size of this list grows in proportion to the number 
 of nodes in the linked list.
 
-Further Notes:
-This code implements a simple linked list traversal using a single loop. While efficient and easy to understand, consider 
-alternative approaches if you need to perform operations on the nodes themselves (e.g., modify values or links). These 
-alternative approaches might directly manipulate the nodes in the linked list, potentially avoiding the creation of an 
-additional list.
 """
