@@ -1,33 +1,69 @@
 def longest_path(graph):
-    # initialise a dictionary to keep track of distances of each node from a terminal node
-    distance = {}
-    
-    for node in graph:
-        if graph[node] == []:# this indicates a terminal node due to absence of neighbors
-            distance[node] = 0 # distance from a terminal node to a terminal node is 0
+    """
+    Calculate the longest path in a Directed Acyclic Graph (DAG) where the path length
+    is defined as the number of edges from a node to a terminal node.
 
-    # start traversal of graph from each node
+    Args:
+        graph (dict): A dictionary representing the DAG where keys are node labels
+                      and values are lists of adjacent nodes.
+
+    Returns:
+        int: The length of the longest path in the graph.
+    """
+
+    # Initialize a dictionary to keep track of distances of each node from a terminal node.
+    distance = {}
+
+    # Iterate through each node in the graph.
     for node in graph:
-        # pass to helper function that mutates the distance dictionary
+        # Check if the node is a terminal node (i.e., has no neighbors).
+        if graph[node] == []:
+            # Distance from a terminal node to itself is 0.
+            distance[node] = 0
+
+    # Start traversal of the graph from each node.
+    for node in graph:
+        # Call the helper function that mutates the distance dictionary.
         traverse_distance(graph, node, distance)
 
-    # finally return the max value of the distance dictionary values 
+    # Finally, return the maximum value of the distances recorded.
     return max(distance.values())
 
+
 def traverse_distance(graph, node, distance):
+    """
+    Helper function to recursively calculate the distance of each node from a terminal node.
+
+    Args:
+        graph (dict): The DAG represented as an adjacency list.
+        node (any): The current node being processed.
+        distance (dict): Dictionary storing the distances of nodes from terminal nodes.
+
+    Returns:
+        int: The distance of the current node from a terminal node.
+    """
+
+    # If the node's distance has already been calculated, return it.
     if node in distance:
-        return distance[node] # return the distance of the node from the terminal node if already precalculated
-    
+        return distance[node]
+
+    # Initialize the largest distance found among neighbors to 0.
     largest = 0
 
+    # Iterate through each neighbor of the current node.
     for neighbor in graph[node]:
-        temp = traverse_distance(graph, neighbor, distance) # note here that the recursive call returns a number ie. distance from neighbor to terminal node
+        # Recursively calculate the distance for the neighbor.
+        temp = traverse_distance(graph, neighbor, distance)
+        # Update the largest distance if the current neighbor's distance is greater.
         if temp > largest:
             largest = temp
-    
-    distance[node] = 1+largest # store the distance of the current node from terminal node so that it does not have to be recalculated 
-    
+
+    # Store the distance of the current node (1 + largest distance among neighbors).
+    distance[node] = 1 + largest
+
+    # Return the calculated distance for the current node.
     return distance[node]
+
 
 """
 e = # edges
