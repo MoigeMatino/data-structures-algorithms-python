@@ -1,36 +1,45 @@
 from typing import List, Set
 from collections import deque
 
-def best_bridge(grid:List[List]) -> int:
-    visited = set()
+def best_bridge(grid: List[List]) -> int:
+    """
+    Finds the length of the shortest bridge connecting two islands in a grid.
 
-    for r in range(len(grid)):
-        for c in range(len(grid[0])):
-            island = find_island(grid, r, c, visited)
-            if len(island) > 0:
+    Args:
+        grid: A 2D list representing the grid, where 'L' represents land and 'W' represents water.
+
+    Returns:
+        The length of the shortest bridge, or -1 if no bridge can be found.
+    """
+
+    visited = set()  # Set to keep track of visited cells
+
+    for r in range(len(grid)):  # Iterate through each row
+        for c in range(len(grid[0])):  # Iterate through each column
+            island = find_island(grid, r, c, visited)  # Find an island starting from (r, c)
+            if len(island) > 0:  # If an island is found
                 break
-        if len(island) > 0:
-            first_island = island
-            print(first_island)
+        if len(island) > 0:  # If an island is found in this row
+            first_island = island  # Store the first found island
             break
-    if len(island) == 0:
-        return "No island in sight"
-    
-    queue = deque([])
-    for pos in first_island:
-        r, c = pos
-        queue.append((r, c, 0))
+    if len(island) == 0:  # If no island is found
+        return "No island in sight"  # Indicate no island
 
-    newly_visited = set()
-    
+    queue = deque([])  # Queue for BFS
+    for pos in first_island:  # Initialize the queue with the first island's positions
+        r, c = pos
+        queue.append((r, c, 0))  # Add positions with distance 0 to the queue
+
+    newly_visited = set()  # Set to keep track of newly visited cells in BFS
+
     while queue:
-        r, c, distance = queue.popleft()
+        r, c, distance = queue.popleft()  # Get the next position and distance from the queue
         pos = r, c
-		
-        if grid[r][c] == "L" and pos not in first_island:
-            return distance - 1
-        
-        deltas = [(1,0), (-1,0), (0,1), (0, -1)]
+
+        if grid[r][c] == "L" and pos not in first_island:  # If found the second island
+            return distance - 1  # Return the distance minus 1 (since we started at 0)
+
+        deltas = [(1, 0), (-1, 0), (0, 1), (0, -1)]  #  Possible directions to move in the grid
         for delta in deltas:
             delta_r, delta_c = delta
             neighbor_r = delta_r + r
@@ -38,32 +47,57 @@ def best_bridge(grid:List[List]) -> int:
             neighbor_pos = neighbor_r, neighbor_c
             if inbounds(grid, neighbor_r, neighbor_c) and neighbor_pos not in newly_visited:
                 newly_visited.add(neighbor_pos)
-                queue.append((neighbor_r, neighbor_c, distance+1))
+                queue.append((neighbor_r, neighbor_c, distance + 1))
 
-    return -1
+    return -1  # No bridge found
 
+def find_island(grid: List[List], r: int, c: int, visited: Set) -> Set:
+    """
+    Finds an island starting from a given position.
 
-def find_island(grid:List[List], r:int, c:int, visited:Set) -> Set:
+    Args:
+        grid: The grid representing the land and water.
+        r: The row of the starting position.
+        c: The column of the starting position.
+        visited: A set to keep track of visited cells.
+
+    Returns:
+        A set of positions representing the island.
+    """
+
     if not inbounds(grid, r, c):
-        return visited
+        return visited # Return visited if the cell is out of bounds
     
     if grid[r][c] == "W":
-        return visited
+        return visited # Return visited if the cell is water
     
     pos = r, c
     if pos in visited:
-        return visited
+        return visited # Return visited if the cell has already been visited
     
-    visited.add(pos)
+    visited.add(pos) # Mark the cell as visited
 
-    find_island(grid, r+1, c, visited)
-    find_island(grid, r-1, c, visited)
-    find_island(grid, r, c+1, visited)
-    find_island(grid, r, c-1, visited)
+    # Recursively visit neighboring cells
+    find_island(grid, r + 1, c, visited)
+    find_island(grid, r - 1, c, visited)
+    find_island(grid, r, c + 1, visited)
+    find_island(grid, r, c - 1, visited)
 
     return visited
 
-def inbounds(grid:List[List], r:int, c:int) -> bool:
+def inbounds(grid: List[List], r: int, c: int) -> bool:
+    """
+    Checks if a given position is within the grid boundaries.
+
+    Args:
+        grid: The grid.
+        r: The row.
+        c: The column.
+
+    Returns:
+        True if the position is in bounds, False otherwise.
+    """
+
     row_inbounds = 0 <= r < len(grid)
     col_inbounds = 0 <= c < len(grid[0])
 
