@@ -102,3 +102,19 @@ def inbounds(grid: List[List], r: int, c: int) -> bool:
     col_inbounds = 0 <= c < len(grid[0])
 
     return row_inbounds and col_inbounds
+
+"""
+Time and Space Complexities:
+
+- Time Complexity: O(r * c) where r is the number of rows and c is the number of columns in the grid. This is because each cell is processed a constant number of times.
+- Space Complexity: O(r * c) for the visited set and the queue, as we might need to store all the cells in the worst case.
+
+Further Notes:
+- Approach:
+    - The algorithm uses Depth-First Search (DFS) to identify the first island.
+    - Breadth-First Search (BFS) is then used to find the shortest bridge to another island by traversing water cells.
+    - The BFS ensures that the shortest path is found due to its level-wise exploration.
+- Reasoning:
+    - Starting with DFS helps in identifying all connected cells of the first island.
+    - BFS is optimal for finding the shortest path in an unweighted grid, which is why it is used after identifying the first island.
+"""
