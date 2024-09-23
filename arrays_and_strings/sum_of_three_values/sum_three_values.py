@@ -60,6 +60,6 @@ def find_sum_of_three(nums: List[int], target: int) -> bool:
 
 # Note:
 # This algorithm utilizes a similar two-pointer approach as the `three_sum` function, but it's modified to find
-# if any triplet sums to the target, requiring each triplet value to be unique. The early termination for
+# if any triplet sums to the target instead of requiring all triplets to be unique. The early termination for
 # duplicate elements (optimization) can potentially reduce redundant checks in the inner loop. It's important to note
 # that the function returns True as soon as a qualifying triplet is found and doesn't enumerate all possible triplets.
