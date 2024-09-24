@@ -30,7 +30,8 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [010. five sort](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/five_sort)  
 [BONUS: sum of three values](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/arrays_and_strings/sum_of_three_values)  
 [BONUS: three sum](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/arrays_and_strings/three_sum)  
-[BONUS: longest palindrome](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/arrays_and_strings/longest_palindrome)
+[BONUS: longest palindrome](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/arrays_and_strings/longest_palindrome)  
+[BONUS: circular array loop](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/circular_arrray_loop)  
 
 ## 2. Linked Lists 
 
