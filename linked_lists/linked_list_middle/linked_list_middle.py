@@ -13,9 +13,6 @@ def get_middle_node(head):
     Returns:
         The middle node of the linked list. If the list is empty, returns None.
     """
-    if head is None:
-        return None  # Return None if the list is empty
-    
     slow = head  # Initialize the slow pointer to the head of the list
     fast = head  # Initialize the fast pointer to the head of the list
     
