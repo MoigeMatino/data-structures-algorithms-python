@@ -50,6 +50,8 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 [022. create linked list](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/create_linked_list)    
 [023. add lists](https://github.com/MoigeMatino/structy.net/tree/main/linked_lists/add_linked_lists)   
 [BONUS: middle of a linked list](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/linked_lists/linked_list_middle)  
+[BONUS: palindrome linked list](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/linked_lists/palindrome_linked_list)  
+[BONUS: remove nth node from end of list](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/linked_lists/remove_nth_node)  
 
 ## 3. Binary Tree 
 
