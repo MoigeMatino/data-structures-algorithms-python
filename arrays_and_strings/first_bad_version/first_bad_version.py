@@ -1,6 +1,8 @@
+
 # Dummy API call to check if a version is bad
 def is_bad_version(s):
-    return s >= v  # Assume v is a global variable representing the first bad version
+    v = 5
+    return s >= v  # Assume v is a variable representing the first bad version
 
 def first_bad_version(n):
     """
