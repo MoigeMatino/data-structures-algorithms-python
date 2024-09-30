@@ -1,6 +1,10 @@
 # Data Structures and Algorithms - Python
 
-This repository mirrors the problem sets from the [structy.net](https://structy.net/) website, offering a comprehensive collection of Python challenges in data structures and algorithms. These problems are structured to be tackled sequentially, ensuring a logical progression in learning, with tasks thoughtfully arranged below in chronological order. As part of the continued commitment to your success, this repository is currently undergoing exciting enhancements. Expect comprehensive test coverage for all problems, with some tests already completed, along with detailed comments to aid better understanding. Stay tuned for these exciting updates and happy coding! 🚀🚀
+This repository mirrors the problem sets from the [structy.net](https://structy.net/) website, offering a comprehensive collection of Python challenges in data structures and algorithms. These problems are structured to be tackled sequentially, ensuring a logical progression in learning, with tasks thoughtfully arranged below in chronological order. 
+
+As part of the continued commitment to your success, this repository is currently undergoing exciting enhancements. Expect comprehensive test coverage for all problems, with some tests already completed, along with detailed comments to aid better understanding. 
+
+If you find this project helpful, please consider giving it a star ⭐ to show your support!
 
 ## :hammer_and_wrench: Enhancements
 
