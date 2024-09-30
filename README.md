@@ -74,6 +74,8 @@ If you find this project helpful, please consider giving it a star ⭐ to show y
 [035. tree level](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/tree_levels)  
 [036. level averages](https://github.com/MoigeMatino/structy.net/tree/main/binary_tree/level_averages)  
 [037. leaf list](https://github.com/MoigeMatino/structy.net/edit/main/binary_tree/leaf_list)  
+[BONUS: diameter of a tree](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/binary_tree/diameter_of_tree)  
+[BONUS: invert tree](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/binary_tree/invert_tree)  
 
 ## 4. Graphs
 
