@@ -44,9 +44,8 @@ path sum for a node is the maximum of its value and the sum of the maximum path 
 The time complexity is O(n), where n is the number of nodes in the binary tree, and the space complexity 
 is O(h), where h is the height of the binary tree in the worst-case scenario.
 
-TODO:
-Another iteration of this problem is the Binary Tree Maximum Path Sum
-This problem tries to find the max path sum that mmay or may not include 
-the root. More on this...
+Another permutation of this problem is the Binary Tree Maximum Path Sum
+This problem tries to find the maximum sum of any non-empty path that may or may not include 
+the root. Checkout the 'max_tree_path_sum' entry in this directory to find out how to solve this problem.
 """
 
