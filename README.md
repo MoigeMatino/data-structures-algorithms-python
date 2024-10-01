@@ -76,6 +76,7 @@ If you find this repository helpful, please consider giving it a star 🌟 to sh
 [037. leaf list](https://github.com/MoigeMatino/structy.net/edit/main/binary_tree/leaf_list)  
 [BONUS: diameter of a tree](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/binary_tree/diameter_of_tree)  
 [BONUS: invert tree](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/binary_tree/invert_tree)  
+[BONUS: max tree path sum](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/binary_tree/max_tree_path_sum)  
 
 ## 4. Graphs
 
