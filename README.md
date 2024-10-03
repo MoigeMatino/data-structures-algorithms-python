@@ -4,7 +4,7 @@ This repository mirrors the problem sets from the [structy.net](https://structy.
 
 As part of the continued commitment to your success, this repository is currently undergoing exciting enhancements. Expect comprehensive test coverage for all problems, with some tests already completed, along with detailed comments to aid better understanding. 
 
-If you find this repository helpful, please consider giving it a star 🌟 to show your support!
+If you find this repo helpful, please consider giving it a star 🌟 to show your support!
 
 ## :hammer_and_wrench: Enhancements
 
