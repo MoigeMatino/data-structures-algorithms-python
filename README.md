@@ -78,6 +78,7 @@ If you find this repo helpful, please consider giving it a star 🌟 to show you
 [BONUS: invert tree](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/binary_tree/invert_tree)  
 [BONUS: max tree path sum](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/binary_tree/max_tree_path_sum)  
 [BONUS: serialise and desrialise tree](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/binary_tree/serialise_deserialise_tree)  
+[BONUS: symmetric tree](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/binary_tree/symmetric_tree)  
 
 ## 4. Graphs
 
