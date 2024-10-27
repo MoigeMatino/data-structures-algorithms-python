@@ -38,6 +38,7 @@ If you find this repo helpful, please consider giving it a star 🌟 to show you
 [BONUS: circular array loop](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/circular_arrray_loop)  
 [BONUS: find duplicate number](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/find_duplicate_number)  
 [BONUS: first bad version](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/first_bad_version)  
+[BONUS: container with most water](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/container_with_most_water)  
 
 ## 2. Linked Lists 
 
