@@ -35,7 +35,7 @@ If you find this repo helpful, please consider giving it a star 🌟 to show you
 [BONUS: sum of three values](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/arrays_and_strings/sum_of_three_values)  
 [BONUS: three sum](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/arrays_and_strings/three_sum)  
 [BONUS: longest palindrome](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/arrays_and_strings/longest_palindrome)  
-[BONUS: circular array loop](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/circular_arrray_loop)  
+[BONUS: circular array loop](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/circular_array_loop)  
 [BONUS: find duplicate number](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/find_duplicate_number)  
 [BONUS: first bad version](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/first_bad_version)  
 [BONUS: container with most water](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/container_with_most_water)  
