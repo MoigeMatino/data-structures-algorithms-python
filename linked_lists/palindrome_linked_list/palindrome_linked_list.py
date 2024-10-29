@@ -81,8 +81,16 @@ def compare_halfs(head1, head2):
 # The algorithm uses a constant amount of extra space. It only uses a few pointer variables and does not require
 # any additional data structures that depend on the size of the input list.
 
+# Considerations:
+# Since a palindrome reads the same forward and backward, an intuitive way to solve this problem is to use two pointers—one placed at the beginning and 
+# the other at the end. These pointers move toward the center, comparing the values at each step. While this approach is intuitive, it poses challenges 
+# when working with singly linked lists. Singly linked lists only have the next pointers, so moving from the end toward the center requires additional steps. 
+# To overcome this limitation, we solve this problem in three key steps: , , and If both halves of the list match, the linked list is a palindrome. 
+# Here, reversing half the linked list allows us to use only the next pointers for comparison. 
+
 # Approach:
 # 1. Use the two-pointer technique to find the middle of the linked list.
 # 2. Reverse the second half of the list.
 # 3. Compare the first half and the reversed second half to check for palindrome properties.
 # This approach efficiently determines if the list is a palindrome without using extra space for storing values.
+
