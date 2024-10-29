@@ -32,14 +32,15 @@ If you find this repo helpful, please consider giving it a star 🌟 to show you
 [008. pair product](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/pair_product)       
 [009. intersection](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/intersection)  
 [010. five sort](https://github.com/MoigeMatino/structy.net/tree/main/arrays_and_strings/five_sort)  
-[BONUS: sum of three values](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/arrays_and_strings/sum_of_three_values)  
 [BONUS: three sum](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/arrays_and_strings/three_sum)  
-[BONUS: longest palindrome](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/arrays_and_strings/longest_palindrome)  
-[BONUS: circular array loop](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/circular_array_loop)  
-[BONUS: find duplicate number](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/find_duplicate_number)  
+[BONUS: happy number](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/happy_number)  
 [BONUS: first bad version](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/first_bad_version)  
+[BONUS: circular array loop](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/circular_array_loop)  
+[BONUS: longest palindrome](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/arrays_and_strings/longest_palindrome)  
+[BONUS: sum of three values](https://github.com/MoigeMatino/Data-Structures-Algorithms-Python/tree/main/arrays_and_strings/sum_of_three_values)  
+[BONUS: find duplicate number](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/find_duplicate_number)  
 [BONUS: container with most water](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/container_with_most_water)  
-[BONUS: happy number](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/happy_number) * two pointers approach
+[BONUS: search rotated sorted array](https://github.com/MoigeMatino/data-structures-algorithms-python/tree/main/arrays_and_strings/search_rotated_sorted_array)  
 
 ## 2. Linked Lists 
 
